@@ -1,0 +1,69 @@
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Montserrat',sans-serif;background:#eef8fc;color:#203f4c;line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{max-width:1250px;margin:auto}
+header{position:fixed;top:0;left:0;width:100%;z-index:1000;background:rgba(255,255,255,.96);backdrop-filter:blur(12px);border-bottom:1px solid #d8e9ef}
+.navbar{max-width:1400px;height:82px;margin:auto;padding:0 35px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-family:'Playfair Display',serif;font-size:24px;color:#16475a;letter-spacing:1px}
+.logo span{display:block;font-family:'Montserrat',sans-serif;font-size:9px;letter-spacing:4px;color:#6c8995}
+nav{display:flex;gap:30px}
+nav a{font-size:12px;font-weight:600;color:#355563;transition:.3s}
+nav a:hover,nav a.active{color:#1284a9}
+.nav-btn{background:#1685a9;color:#fff;padding:13px 22px;border-radius:30px;font-size:12px;font-weight:600}
+.hero{min-height:72vh;margin-top:82px;display:flex;align-items:center;position:relative;background:url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=2000&q=90') center/cover}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(228,245,250,.98),rgba(228,245,250,.82),rgba(228,245,250,.08))}
+.hero-content{position:relative;max-width:1250px;width:100%;margin:auto;padding:90px 35px}
+.eyebrow{color:#1685a9;font-size:12px;letter-spacing:4px;font-weight:700}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(52px,7vw,88px);line-height:1.02;font-weight:500;color:#183f4e;margin-top:18px;max-width:750px}
+.lead{max-width:610px;margin-top:25px;color:#5b737d;font-size:15px;line-height:1.9}
+.buttons{display:flex;gap:15px;margin-top:32px;flex-wrap:wrap}
+.btn{display:inline-block;padding:15px 27px;border-radius:30px;font-size:12px;font-weight:700}
+.primary{background:#1685a9;color:white}.primary:hover{background:#0f617c}
+.outline{border:1px solid #7197a6;color:#294b59}.outline:hover{background:white}
+.whatsapp{background:#dff4e9;color:#177348}
+.intro,.insurance{padding:105px 35px;background:#fff}
+.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:75px;align-items:center}
+.intro h2,.section-title h2,.cta h2{font-family:'Playfair Display',serif;font-weight:500;color:#183f4e}
+.intro h2{font-size:48px;line-height:1.15;margin:14px 0 25px}
+.intro p{color:#667f89;font-size:14px;line-height:1.9}
+.intro-image{height:440px;background:url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=90') center/cover}
+.ticks{margin-top:25px;display:grid;gap:12px;color:#45616d;font-size:13px}
+.ticks i{color:#1685a9;margin-right:10px}
+.services,.process{padding:110px 35px;background:#e8f6fa}
+.section-title{text-align:center;max-width:760px;margin:0 auto 60px}
+.section-title h2{font-size:50px;line-height:1.15;margin:12px 0 16px}
+.section-title>p:last-child{font-size:14px;color:#69818a}
+.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}
+.card{background:#fff;min-height:330px;padding:40px 32px;border:1px solid #d8ebf0;position:relative;overflow:hidden;transition:.35s}
+.card:hover{transform:translateY(-8px);box-shadow:0 20px 50px rgba(41,103,122,.13)}
+.number{position:absolute;right:24px;top:15px;font-family:'Playfair Display',serif;font-size:45px;color:#e5f3f7}
+.icon{width:65px;height:65px;border-radius:50%;background:#e5f5fa;display:flex;align-items:center;justify-content:center;color:#1685a9;font-size:24px;margin-bottom:25px}
+.card h3{font-size:19px;color:#214957;margin-bottom:14px}
+.card p{font-size:13px;color:#71858d;line-height:1.8}
+.card>a{display:inline-block;margin-top:20px;color:#1685a9;font-size:11px;font-weight:700;letter-spacing:1px}
+.insurance-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px}
+.insurance-card{padding:45px;background:#f0f9fc;border:1px solid #d9edf2}
+.big-icon{font-size:32px;color:#1685a9;margin-bottom:22px}
+.insurance-card h3{font-family:'Playfair Display',serif;font-size:30px;color:#1d4655;margin-bottom:15px}
+.insurance-card p{font-size:13px;color:#687f88;line-height:1.9}
+.insurance-card ul{list-style:none;margin-top:22px}
+.insurance-card li{font-size:13px;color:#45616d;margin:12px 0}
+.insurance-card li i{color:#1685a9;margin-right:10px}
+.process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center}
+.process-grid>div{padding:25px 15px}
+.process-icon{width:75px;height:75px;margin:0 auto 20px;border-radius:50%;background:#fff;border:1px solid #cde6ed;display:flex;align-items:center;justify-content:center;color:#1685a9;font-size:25px}
+.process-grid h3{font-size:16px;color:#244b59;margin-bottom:8px}
+.process-grid p{font-size:12px;color:#70848d}
+.cta{text-align:center;padding:105px 30px;background:#d9eff6}
+.cta h2{font-size:52px;margin:12px 0}
+.cta>p:nth-of-type(2){max-width:620px;margin:auto;color:#627b85;font-size:14px}
+.center{justify-content:center}
+footer{background:#f1fafc;padding:60px 35px 25px;border-top:1px solid #d5e9ee}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px}
+footer h3{font-size:15px;color:#214957;margin-bottom:16px}
+footer p,footer a{display:block;font-size:12px;line-height:2;color:#70858d}
+footer a:hover{color:#1685a9}
+.copyright{border-top:1px solid #d8e9ee;margin-top:40px;padding-top:20px;font-size:11px;color:#82969f}
+@media(max-width:900px){nav{display:none}.service-grid{grid-template-columns:1fr 1fr}.intro-grid,.insurance-grid{grid-template-columns:1fr}.process-grid{grid-template-columns:1fr 1fr}.footer-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.navbar{padding:0 20px}.nav-btn{display:none}.hero-content{padding:65px 22px}.hero h1{font-size:52px}.intro,.insurance,.services,.process{padding:75px 20px}.intro-grid{gap:35px}.intro h2,.section-title h2{font-size:39px}.service-grid,.process-grid{grid-template-columns:1fr}.intro-image{height:330px}.insurance-card{padding:30px}.cta h2{font-size:40px}.footer-grid{grid-template-columns:1fr}}
