@@ -3,184 +3,2936 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>United Automotives India | Automotive Services</title>
-<link rel="stylesheet" href="style.css">
+
+<title>United Automotives India | Premium Pre-Owned Cars & Automotive Services</title>
+
+<meta name="description" content="United Automotives India - Premium pre-owned cars, vehicle sales, motor insurance, renewals, documentation and claim assistance.">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+
+/* =========================================================
+   GLOBAL
+========================================================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Montserrat',sans-serif;
+    background:#eef8fc;
+    color:#203f4c;
+    line-height:1.6;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+.container{
+    width:92%;
+    max-width:1250px;
+    margin:auto;
+}
+
+section{
+    padding:100px 0;
+}
+
+.eyebrow{
+    color:#1685a4;
+    font-size:13px;
+    font-weight:800;
+    letter-spacing:3px;
+    margin-bottom:15px;
+}
+
+h1,h2,h3{
+    line-height:1.2;
+}
+
+h2{
+    font-family:'Playfair Display',serif;
+    font-size:48px;
+    color:#173744;
+}
+
+.section-title{
+    text-align:center;
+    max-width:800px;
+    margin:0 auto 55px;
+}
+
+.section-title p:last-child{
+    margin-top:15px;
+    color:#657c85;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1000;
+    background:rgba(9,30,39,.96);
+    backdrop-filter:blur(12px);
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.navbar{
+    width:92%;
+    max-width:1400px;
+    margin:auto;
+    min-height:78px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:30px;
+}
+
+.logo{
+    color:#fff;
+    font-weight:800;
+    font-size:20px;
+    letter-spacing:1.5px;
+    white-space:nowrap;
+}
+
+.logo span{
+    display:block;
+    color:#48b8d5;
+    font-size:10px;
+    letter-spacing:5px;
+    margin-top:-3px;
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    gap:25px;
+}
+
+nav a{
+    color:#dce9ed;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:1px;
+    transition:.3s;
+}
+
+nav a:hover,
+nav a.active{
+    color:#48c3df;
+}
+
+.nav-btn{
+    padding:13px 20px;
+    background:#1685a4;
+    color:#fff;
+    font-size:11px;
+    font-weight:800;
+    letter-spacing:1px;
+    transition:.3s;
+}
+
+.nav-btn:hover{
+    background:#48b8d5;
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero{
+    min-height:100vh;
+    padding:0;
+    position:relative;
+    display:flex;
+    align-items:center;
+    background:
+    linear-gradient(90deg,rgba(6,25,33,.92),rgba(6,25,33,.55),rgba(6,25,33,.25)),
+    url("https://images.unsplash.com/photo-1504215680853-026ed2a45def?auto=format&fit=crop&w=2000&q=90")
+    center/cover no-repeat;
+}
+
+.hero-content{
+    width:92%;
+    max-width:1250px;
+    margin:auto;
+    padding-top:70px;
+    position:relative;
+    z-index:2;
+}
+
+.hero h1{
+    font-family:'Playfair Display',serif;
+    font-size:72px;
+    color:#fff;
+    max-width:750px;
+    margin-bottom:25px;
+}
+
+.hero .lead{
+    color:#dbe9ed;
+    font-size:17px;
+    max-width:650px;
+    margin-bottom:35px;
+}
+
+.buttons{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:15px 25px;
+    font-size:12px;
+    font-weight:800;
+    letter-spacing:1.2px;
+    transition:.3s;
+}
+
+.btn.primary{
+    background:#1685a4;
+    color:#fff;
+}
+
+.btn.primary:hover{
+    background:#48b8d5;
+    transform:translateY(-2px);
+}
+
+.btn.outline{
+    border:1px solid rgba(255,255,255,.6);
+    color:#fff;
+}
+
+.btn.outline:hover{
+    background:#fff;
+    color:#173744;
+}
+
+.btn.whatsapp{
+    background:#25d366;
+    color:#fff;
+}
+
+.btn.whatsapp:hover{
+    background:#1db954;
+    transform:translateY(-2px);
+}
+
+
+/* =========================================================
+   FRESH ARRIVALS
+========================================================= */
+
+.cars-section{
+    background:#f7fbfd;
+}
+
+.inventory-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:end;
+    gap:30px;
+    margin-bottom:35px;
+}
+
+.inventory-top h2{
+    margin-bottom:10px;
+}
+
+.inventory-top p{
+    color:#70838a;
+}
+
+.inventory-badge{
+    background:#173744;
+    color:#fff;
+    padding:14px 20px;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:1px;
+}
+
+
+/* Filters */
+
+.filters{
+    background:#fff;
+    padding:20px;
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:12px;
+    margin-bottom:35px;
+    box-shadow:0 12px 35px rgba(24,65,78,.08);
+}
+
+.filters select,
+.filters input{
+    width:100%;
+    padding:13px 14px;
+    border:1px solid #d8e5e9;
+    background:#f8fbfc;
+    color:#294a56;
+    font-family:inherit;
+    outline:none;
+}
+
+.filters select:focus,
+.filters input:focus{
+    border-color:#1685a4;
+}
+
+
+/* Car Grid */
+
+.car-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.car-card{
+    background:#fff;
+    border:1px solid #e0ebef;
+    overflow:hidden;
+    position:relative;
+    transition:.35s;
+    box-shadow:0 8px 25px rgba(25,62,75,.06);
+}
+
+.car-card:hover{
+    transform:translateY(-7px);
+    box-shadow:0 20px 45px rgba(25,62,75,.14);
+}
+
+.car-image{
+    height:245px;
+    position:relative;
+    overflow:hidden;
+    background:#dbe8ec;
+}
+
+.car-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:.5s;
+}
+
+.car-card:hover .car-image img{
+    transform:scale(1.05);
+}
+
+.fresh-tag{
+    position:absolute;
+    top:15px;
+    left:15px;
+    background:#1685a4;
+    color:#fff;
+    padding:7px 12px;
+    font-size:10px;
+    font-weight:800;
+    letter-spacing:1px;
+}
+
+.car-heart{
+    position:absolute;
+    top:15px;
+    right:15px;
+    width:38px;
+    height:38px;
+    border-radius:50%;
+    background:rgba(255,255,255,.9);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#173744;
+}
+
+.car-content{
+    padding:24px;
+}
+
+.car-brand{
+    color:#1685a4;
+    font-size:10px;
+    font-weight:800;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+
+.car-title{
+    font-family:'Playfair Display',serif;
+    font-size:25px;
+    color:#173744;
+    margin:7px 0 12px;
+}
+
+.car-meta{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:9px;
+    margin:15px 0;
+}
+
+.car-meta span{
+    font-size:11px;
+    color:#657a82;
+    display:flex;
+    gap:7px;
+    align-items:center;
+}
+
+.car-meta i{
+    color:#1685a4;
+}
+
+.car-price{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:15px;
+    border-top:1px solid #e5eef1;
+    padding-top:18px;
+}
+
+.price{
+    font-size:21px;
+    font-weight:800;
+    color:#173744;
+}
+
+.negotiable{
+    font-size:9px;
+    color:#1685a4;
+    display:block;
+    margin-top:2px;
+}
+
+.view-car{
+    border:none;
+    background:#173744;
+    color:#fff;
+    padding:12px 15px;
+    font-family:inherit;
+    font-size:10px;
+    font-weight:800;
+    cursor:pointer;
+    letter-spacing:.7px;
+    transition:.3s;
+}
+
+.view-car:hover{
+    background:#1685a4;
+}
+
+
+/* No Results */
+
+.no-results{
+    display:none;
+    text-align:center;
+    padding:50px;
+    background:#fff;
+    color:#71858c;
+}
+
+
+/* =========================================================
+   ABOUT / INTRO
+========================================================= */
+
+.intro{
+    background:#eef8fc;
+}
+
+.intro-grid{
+    display:grid;
+    grid-template-columns:1.1fr .9fr;
+    gap:70px;
+    align-items:center;
+}
+
+.intro h2{
+    margin-bottom:25px;
+}
+
+.intro-copy{
+    color:#5f757d;
+}
+
+.intro-copy strong{
+    color:#173744;
+}
+
+.ticks{
+    display:grid;
+    gap:14px;
+    margin-top:30px;
+}
+
+.ticks div{
+    font-weight:600;
+    font-size:13px;
+}
+
+.ticks i{
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    background:#d8f1f7;
+    color:#1685a4;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    margin-right:8px;
+    font-size:10px;
+}
+
+.intro-image{
+    min-height:570px;
+    background:
+    linear-gradient(180deg,rgba(12,48,61,.05),rgba(12,48,61,.35)),
+    url("https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1200&q=85")
+    center/cover;
+}
+
+
+/* =========================================================
+   SERVICES
+========================================================= */
+
+.services{
+    background:#fff;
+}
+
+.service-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:22px;
+}
+
+.card{
+    background:#f7fbfd;
+    border:1px solid #dce9ed;
+    padding:35px;
+    position:relative;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 20px 40px rgba(26,69,83,.1);
+}
+
+.card .number{
+    position:absolute;
+    top:20px;
+    right:25px;
+    font-size:12px;
+    color:#9ab2ba;
+    font-weight:800;
+}
+
+.icon{
+    width:55px;
+    height:55px;
+    background:#dff2f7;
+    color:#1685a4;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:20px;
+    margin-bottom:25px;
+}
+
+.card h3{
+    color:#173744;
+    font-size:20px;
+    margin-bottom:12px;
+}
+
+.card p{
+    color:#71858c;
+    font-size:13px;
+    margin-bottom:20px;
+}
+
+.card a{
+    color:#1685a4;
+    font-size:10px;
+    font-weight:800;
+    letter-spacing:1px;
+}
+
+
+/* =========================================================
+   INSURANCE
+========================================================= */
+
+.insurance{
+    background:#eef8fc;
+}
+
+.insurance-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+}
+
+.insurance-card{
+    background:#fff;
+    padding:45px;
+    border:1px solid #dce9ed;
+}
+
+.big-icon{
+    font-size:42px;
+    color:#1685a4;
+    margin-bottom:25px;
+}
+
+.insurance-card h3{
+    font-family:'Playfair Display',serif;
+    font-size:30px;
+    color:#173744;
+    margin-bottom:15px;
+}
+
+.insurance-card p{
+    color:#6e8289;
+    margin-bottom:25px;
+}
+
+.insurance-card ul{
+    list-style:none;
+    display:grid;
+    gap:12px;
+}
+
+.insurance-card li{
+    font-size:13px;
+    font-weight:600;
+}
+
+.insurance-card li i{
+    color:#1685a4;
+    margin-right:10px;
+}
+
+
+/* =========================================================
+   PROCESS
+========================================================= */
+
+.process{
+    background:#fff;
+}
+
+.process-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+    text-align:center;
+}
+
+.process-grid>div{
+    padding:20px;
+}
+
+.process-icon{
+    width:65px;
+    height:65px;
+    border-radius:50%;
+    background:#e0f3f7;
+    color:#1685a4;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto 20px;
+    font-size:21px;
+}
+
+.process-grid h3{
+    color:#173744;
+    font-size:16px;
+    margin-bottom:10px;
+}
+
+.process-grid p{
+    color:#71858c;
+    font-size:12px;
+}
+
+
+/* =========================================================
+   CTA
+========================================================= */
+
+.cta{
+    background:
+    linear-gradient(rgba(8,36,47,.93),rgba(8,36,47,.93)),
+    url("https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1800&q=85")
+    center/cover;
+    text-align:center;
+    color:#fff;
+}
+
+.cta h2{
+    color:#fff;
+    margin-bottom:15px;
+}
+
+.cta>p:not(.eyebrow){
+    color:#c6d6db;
+    margin-bottom:30px;
+}
+
+.center{
+    justify-content:center;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+footer{
+    background:#071d26;
+    color:#b9cbd0;
+    padding:70px 0 0;
+}
+
+.footer-grid{
+    display:grid;
+    grid-template-columns:1.5fr 1fr 1fr 1fr;
+    gap:40px;
+    padding-bottom:50px;
+}
+
+.footer-grid h3{
+    color:#fff;
+    font-size:13px;
+    letter-spacing:1.5px;
+    margin-bottom:18px;
+}
+
+.footer-grid p,
+.footer-grid a{
+    color:#9eb5bc;
+    font-size:12px;
+    line-height:2;
+}
+
+.footer-grid a{
+    display:block;
+}
+
+.footer-grid a:hover{
+    color:#48c3df;
+}
+
+.copyright{
+    border-top:1px solid rgba(255,255,255,.08);
+    padding:20px 0;
+    font-size:10px;
+    color:#78929a;
+}
+
+
+/* =========================================================
+   MODAL
+========================================================= */
+
+.modal{
+    position:fixed;
+    inset:0;
+    background:rgba(4,19,25,.82);
+    backdrop-filter:blur(7px);
+    z-index:2000;
+    display:none;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+}
+
+.modal.active{
+    display:flex;
+}
+
+.modal-box{
+    width:100%;
+    max-width:950px;
+    max-height:90vh;
+    overflow:auto;
+    background:#fff;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    position:relative;
+}
+
+.modal-image{
+    min-height:500px;
+}
+
+.modal-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.modal-content{
+    padding:45px;
+}
+
+.modal-close{
+    position:absolute;
+    right:15px;
+    top:15px;
+    width:40px;
+    height:40px;
+    border:none;
+    border-radius:50%;
+    background:#173744;
+    color:#fff;
+    cursor:pointer;
+    z-index:5;
+}
+
+.modal-content .car-title{
+    font-size:34px;
+}
+
+.detail-list{
+    list-style:none;
+    display:grid;
+    gap:13px;
+    margin:25px 0;
+}
+
+.detail-list li{
+    display:flex;
+    justify-content:space-between;
+    border-bottom:1px solid #e5eef1;
+    padding-bottom:9px;
+    font-size:12px;
+}
+
+.detail-list strong{
+    color:#173744;
+}
+
+.modal-price{
+    font-size:27px;
+    font-weight:800;
+    color:#1685a4;
+    margin-bottom:20px;
+}
+
+
+/* =========================================================
+   FLOATING WHATSAPP
+========================================================= */
+
+.whatsapp-float{
+    position:fixed;
+    right:22px;
+    bottom:22px;
+    width:58px;
+    height:58px;
+    border-radius:50%;
+    background:#25d366;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:27px;
+    z-index:1500;
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media(max-width:1050px){
+
+    nav{
+        gap:14px;
+    }
+
+    .nav-btn{
+        display:none;
+    }
+
+    .hero h1{
+        font-size:58px;
+    }
+
+    .car-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .service-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .process-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .filters{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .footer-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+
+@media(max-width:750px){
+
+    section{
+        padding:70px 0;
+    }
+
+    header{
+        position:absolute;
+    }
+
+    .navbar{
+        min-height:70px;
+    }
+
+    nav{
+        display:none;
+    }
+
+    .hero{
+        min-height:760px;
+    }
+
+    .hero h1{
+        font-size:45px;
+    }
+
+    .hero .lead{
+        font-size:14px;
+    }
+
+    h2{
+        font-size:38px;
+    }
+
+    .inventory-top{
+        display:block;
+    }
+
+    .inventory-badge{
+        display:inline-block;
+        margin-top:20px;
+    }
+
+    .car-grid,
+    .service-grid,
+    .insurance-grid,
+    .intro-grid,
+    .process-grid,
+    .footer-grid{
+        grid-template-columns:1fr;
+    }
+
+    .filters{
+        grid-template-columns:1fr;
+    }
+
+    .intro-image{
+        min-height:400px;
+    }
+
+    .insurance-card{
+        padding:30px;
+    }
+
+    .modal-box{
+        grid-template-columns:1fr;
+    }
+
+    .modal-image{
+        min-height:270px;
+    }
+
+    .modal-content{
+        padding:30px;
+    }
+}
+
+
+@media(max-width:480px){
+
+    .logo{
+        font-size:16px;
+    }
+
+    .hero h1{
+        font-size:39px;
+    }
+
+    .btn{
+        width:100%;
+    }
+
+    .car-meta{
+        grid-template-columns:1fr;
+    }
+
+    .car-price{
+        align-items:flex-start;
+        flex-direction:column;
+    }
+
+}
+
+</style>
 </head>
+
+
 <body>
 
+
+<!-- ======================================================
+     HEADER
+====================================================== -->
+
 <header>
-  <div class="navbar">
-    <a class="logo" href="index.html">UNITED AUTOMOTIVES<span>INDIA</span></a>
-    <nav>
-      <a href="index.html">HOME</a>
-      <a href="#services" class="active">SERVICES</a>
-      <a href="#insurance">INSURANCE</a>
-      <a href="#about">ABOUT</a>
-      <a href="#contact">CONTACT</a>
-    </nav>
-    <a class="nav-btn" href="tel:+919845175703">ENQUIRE NOW</a>
-  </div>
+
+<div class="navbar">
+
+<a class="logo" href="#home">
+    UNITED AUTOMOTIVES
+    <span>INDIA</span>
+</a>
+
+<nav>
+
+<a href="#home" class="active">HOME</a>
+<a href="#cars">FRESH ARRIVALS</a>
+<a href="#services">SERVICES</a>
+<a href="#insurance">INSURANCE</a>
+<a href="#about">ABOUT</a>
+<a href="#contact">CONTACT</a>
+
+</nav>
+
+<a class="nav-btn" href="tel:+919845175703">
+    ENQUIRE NOW
+</a>
+
+</div>
+
 </header>
 
+
+
 <main>
-<section class="hero">
-  <div class="hero-overlay"></div>
-  <div class="hero-content">
-    <p class="eyebrow">UNITED AUTOMOTIVES INDIA</p>
-    <h1>Services Designed<br>Around Your Drive.</h1>
-    <p class="lead">Premium automotive solutions for vehicle sales, insurance, renewals, documentation and claim assistance — all under one roof.</p>
-    <div class="buttons">
-      <a class="btn primary" href="#services">EXPLORE SERVICES</a>
-      <a class="btn outline" href="#contact">CONTACT US</a>
-    </div>
-  </div>
+
+
+<!-- ======================================================
+     HERO
+====================================================== -->
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<p class="eyebrow">
+    UNITED AUTOMOTIVES INDIA
+</p>
+
+<h1>
+    Drive Something<br>
+    Extraordinary.
+</h1>
+
+<p class="lead">
+    Premium pre-owned vehicles, transparent automotive solutions
+    and personalised assistance — created around your lifestyle.
+</p>
+
+<div class="buttons">
+
+<a class="btn primary" href="#cars">
+    EXPLORE CARS
+</a>
+
+<a class="btn outline" href="#services">
+    OUR SERVICES
+</a>
+
+</div>
+
+</div>
+
 </section>
+
+
+
+<!-- ======================================================
+     FRESH ARRIVALS / CARS
+====================================================== -->
+
+<section class="cars-section" id="cars">
+
+<div class="container">
+
+<div class="inventory-top">
+
+<div>
+
+<p class="eyebrow">
+    FRESH ARRIVALS
+</p>
+
+<h2>
+    Premium Cars. Carefully Selected.
+</h2>
+
+<p>
+    Explore our latest collection of quality pre-owned vehicles.
+</p>
+
+</div>
+
+<div class="inventory-badge">
+    <i class="fa-solid fa-car"></i>
+    QUALITY ASSURED INVENTORY
+</div>
+
+</div>
+
+
+<!-- FILTERS -->
+
+<div class="filters">
+
+<select id="brandFilter">
+
+<option value="all">All Brands</option>
+<option value="Maruti Suzuki">Maruti Suzuki</option>
+<option value="Honda">Honda</option>
+<option value="Volkswagen">Volkswagen</option>
+<option value="BMW">BMW</option>
+<option value="Mercedes-Benz">Mercedes-Benz</option>
+<option value="Audi">Audi</option>
+<option value="Jaguar">Jaguar</option>
+<option value="Land Rover">Land Rover</option>
+
+</select>
+
+
+<select id="fuelFilter">
+
+<option value="all">All Fuel Types</option>
+<option value="Petrol">Petrol</option>
+<option value="Diesel">Diesel</option>
+<option value="Hybrid">Hybrid</option>
+
+</select>
+
+
+<select id="transmissionFilter">
+
+<option value="all">Transmission</option>
+<option value="Manual">Manual</option>
+<option value="Automatic">Automatic</option>
+
+</select>
+
+
+<select id="yearFilter">
+
+<option value="all">All Years</option>
+<option value="2026">2026</option>
+<option value="2025">2025</option>
+<option value="2024">2024</option>
+<option value="2023">2023</option>
+<option value="2022">2022</option>
+<option value="2021">2021</option>
+<option value="2020">2020</option>
+<option value="2019">2019</option>
+<option value="2018">2018</option>
+<option value="2017">2017</option>
+<option value="2016">2016</option>
+<option value="2015">2015</option>
+<option value="2014">2014</option>
+
+</select>
+
+
+<input
+type="text"
+id="searchCar"
+placeholder="Search vehicle..."
+>
+
+</div>
+
+
+
+<!-- CAR GRID -->
+
+<div class="car-grid" id="carGrid">
+
+
+<!-- CAR 1 -->
+
+<article
+class="car-card"
+data-brand="Mini Cooper"
+data-fuel="Petrol"
+data-transmission="Automatic"
+data-year="2013"
+>
+
+<div class="car-image">
+
+<img
+src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1000&q=85"
+alt="Mini Cooper Countryman"
+>
+
+<span class="fresh-tag">
+    FRESH ARRIVAL
+</span>
+
+<span class="car-heart">
+    <i class="fa-regular fa-heart"></i>
+</span>
+
+</div>
+
+
+<div class="car-content">
+
+<span class="car-brand">
+    Mini Cooper
+</span>
+
+<h3 class="car-title">
+    Countryman
+</h3>
+
+<div class="car-meta">
+
+<span>
+<i class="fa-solid fa-calendar"></i>
+2013
+</span>
+
+<span>
+<i class="fa-solid fa-road"></i>
+39,000 KM
+</span>
+
+<span>
+<i class="fa-solid fa-user"></i>
+2nd Owner
+</span>
+
+<span>
+<i class="fa-solid fa-gears"></i>
+Automatic
+</span>
+
+</div>
+
+
+<div class="car-price">
+
+<div>
+
+<div class="price">
+    ₹15.00 Lakh
+</div>
+
+<span class="negotiable">
+    Slightly Negotiable
+</span>
+
+</div>
+
+<button
+class="view-car"
+onclick="openCar(
+'Mini Cooper Countryman',
+'2013',
+'39,000 KM',
+'2nd Owner',
+'Petrol',
+'Automatic',
+'₹15.00 Lakh',
+'https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=90'
+)">
+VIEW DETAILS
+</button>
+
+</div>
+
+</div>
+
+</article>
+
+
+
+<!-- CAR 2 -->
+
+<article
+class="car-card"
+data-brand="Honda"
+data-fuel="Petrol"
+data-transmission="Manual"
+data-year="2014"
+>
+
+<div class="car-image">
+
+<img
+src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1000&q=85"
+alt="Honda Brio"
+>
+
+<span class="fresh-tag">
+    FRESH ARRIVAL
+</span>
+
+<span class="car-heart">
+    <i class="fa-regular fa-heart"></i>
+</span>
+
+</div>
+
+
+<div class="car-content">
+
+<span class="car-brand">
+    Honda
+</span>
+
+<h3 class="car-title">
+    Brio VMT
+</h3>
+
+<div class="car-meta">
+
+<span>
+<i class="fa-solid fa-calendar"></i>
+2014
+</span>
+
+<span>
+<i class="fa-solid fa-road"></i>
+62,000 KM
+</span>
+
+<span>
+<i class="fa-solid fa-user"></i>
+1st Owner
+</span>
+
+<span>
+<i class="fa-solid fa-gears"></i>
+Manual
+</span>
+
+</div>
+
+
+<div class="car-price">
+
+<div>
+
+<div class="price">
+    ₹3.20 Lakh
+</div>
+
+<span class="negotiable">
+    Slightly Negotiable
+</span>
+
+</div>
+
+<button
+class="view-car"
+onclick="openCar(
+'Honda Brio VMT',
+'2014',
+'62,000 KM',
+'1st Owner',
+'Petrol',
+'Manual',
+'₹3.20 Lakh',
+'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1200&q=90'
+)">
+VIEW DETAILS
+</button>
+
+</div>
+
+</div>
+
+</article>
+
+
+
+<!-- CAR 3 -->
+
+<article
+class="car-card"
+data-brand="Volkswagen"
+data-fuel="Diesel"
+data-transmission="Automatic"
+data-year="2016"
+>
+
+<div class="car-image">
+
+<img
+src="https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=1000&q=85"
+alt="Volkswagen Vento"
+>
+
+<span class="fresh-tag">
+    FRESH ARRIVAL
+</span>
+
+<span class="car-heart">
+    <i class="fa-regular fa-heart"></i>
+</span>
+
+</div>
+
+
+<div class="car-content">
+
+<span class="car-brand">
+    Volkswagen
+</span>
+
+<h3 class="car-title">
+    Vento 1.5 TDI Highline
+</h3>
+
+<div class="car-meta">
+
+<span>
+<i class="fa-solid fa-calendar"></i>
+2016
+</span>
+
+<span>
+<i class="fa-solid fa-road"></i>
+72,000 KM
+</span>
+
+<span>
+<i class="fa-solid fa-user"></i>
+3rd Owner
+</span>
+
+<span>
+<i class="fa-solid fa-gears"></i>
+Automatic
+</span>
+
+</div>
+
+
+<div class="car-price">
+
+<div>
+
+<div class="price">
+    ₹5.20 Lakh
+</div>
+
+<span class="negotiable">
+    Slightly Negotiable
+</span>
+
+</div>
+
+<button
+class="view-car"
+onclick="openCar(
+'Volkswagen Vento 1.5 TDI Highline',
+'2016',
+'72,000 KM',
+'3rd Owner',
+'Diesel',
+'Automatic',
+'₹5.20 Lakh',
+'https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=1200&q=90'
+)">
+VIEW DETAILS
+</button>
+
+</div>
+
+</div>
+
+</article>
+
+
+
+<!-- CAR 4 -->
+
+<article
+class="car-card"
+data-brand="BMW"
+data-fuel="Diesel"
+data-transmission="Automatic"
+data-year="2018"
+>
+
+<div class="car-image">
+
+<img
+src="https://images.unsplash.com/photo-1556189250-72ba954cfc2b?auto=format&fit=crop&w=1000&q=85"
+alt="BMW"
+>
+
+<span class="fresh-tag">
+    PREMIUM
+</span>
+
+<span class="car-heart">
+    <i class="fa-regular fa-heart"></i>
+</span>
+
+</div>
+
+
+<div class="car-content">
+
+<span class="car-brand">
+    BMW
+</span>
+
+<h3 class="car-title">
+    Luxury Sedan
+</h3>
+
+<div class="car-meta">
+
+<span>
+<i class="fa-solid fa-calendar"></i>
+2018
+</span>
+
+<span>
+<i class="fa-solid fa-road"></i>
+48,000 KM
+</span>
+
+<span>
+<i class="fa-solid fa-user"></i>
+2nd Owner
+</span>
+
+<span>
+<i class="fa-solid fa-gears"></i>
+Automatic
+</span>
+
+</div>
+
+
+<div class="car-price">
+
+<div>
+
+<div class="price">
+    ₹29.50 Lakh
+</div>
+
+<span class="negotiable">
+    Enquire for Price
+</span>
+
+</div>
+
+<button
+class="view-car"
+onclick="openCar(
+'BMW Luxury Sedan',
+'2018',
+'48,000 KM',
+'2nd Owner',
+'Diesel',
+'Automatic',
+'₹29.50 Lakh',
+'https://images.unsplash.com/photo-1556189250-72ba954cfc2b?auto=format&fit=crop&w=1200&q=90'
+)">
+VIEW DETAILS
+</button>
+
+</div>
+
+</div>
+
+</article>
+
+
+
+<!-- CAR 5 -->
+
+<article
+class="car-card"
+data-brand="Mercedes-Benz"
+data-fuel="Petrol"
+data-transmission="Automatic"
+data-year="2020"
+>
+
+<div class="car-image">
+
+<img
+src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1000&q=85"
+alt="Mercedes Benz"
+>
+
+<span class="fresh-tag">
+    PREMIUM
+</span>
+
+<span class="car-heart">
+    <i class="fa-regular fa-heart"></i>
+</span>
+
+</div>
+
+
+<div class="car-content">
+
+<span class="car-brand">
+    Mercedes-Benz
+</span>
+
+<h3 class="car-title">
+    Luxury Collection
+</h3>
+
+<div class="car-meta">
+
+<span>
+<i class="fa-solid fa-calendar"></i>
+2020
+</span>
+
+<span>
+<i class="fa-solid fa-road"></i>
+35,000 KM
+</span>
+
+<span>
+<i class="fa-solid fa-user"></i>
+1st Owner
+</span>
+
+<span>
+<i class="fa-solid fa-gears"></i>
+Automatic
+</span>
+
+</div>
+
+
+<div class="car-price">
+
+<div>
+
+<div class="price">
+    ₹48.00 Lakh
+</div>
+
+<span class="negotiable">
+    Enquire for Price
+</span>
+
+</div>
+
+<button
+class="view-car"
+onclick="openCar(
+'Mercedes-Benz Luxury Collection',
+'2020',
+'35,000 KM',
+'1st Owner',
+'Petrol',
+'Automatic',
+'₹48.00 Lakh',
+'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=90'
+)">
+VIEW DETAILS
+</button>
+
+</div>
+
+</div>
+
+</article>
+
+
+
+<!-- CAR 6 -->
+
+<article
+class="car-card"
+data-brand="Audi"
+data-fuel="Diesel"
+data-transmission="Automatic"
+data-year="2019"
+>
+
+<div class="car-image">
+
+<img
+src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1000&q=85"
+alt="Audi"
+>
+
+<span class="fresh-tag">
+    PREMIUM
+</span>
+
+<span class="car-heart">
+    <i class="fa-regular fa-heart"></i>
+</span>
+
+</div>
+
+
+<div class="car-content">
+
+<span class="car-brand">
+    Audi
+</span>
+
+<h3 class="car-title">
+    Premium Collection
+</h3>
+
+<div class="car-meta">
+
+<span>
+<i class="fa-solid fa-calendar"></i>
+2019
+</span>
+
+<span>
+<i class="fa-solid fa-road"></i>
+42,000 KM
+</span>
+
+<span>
+<i class="fa-solid fa-user"></i>
+2nd Owner
+</span>
+
+<span>
+<i class="fa-solid fa-gears"></i>
+Automatic
+</span>
+
+</div>
+
+
+<div class="car-price">
+
+<div>
+
+<div class="price">
+    ₹35.00 Lakh
+</div>
+
+<span class="negotiable">
+    Enquire for Price
+</span>
+
+</div>
+
+<button
+class="view-car"
+onclick="openCar(
+'Audi Premium Collection',
+'2019',
+'42,000 KM',
+'2nd Owner',
+'Diesel',
+'Automatic',
+'₹35.00 Lakh',
+'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1200&q=90'
+)">
+VIEW DETAILS
+</button>
+
+</div>
+
+</div>
+
+</article>
+
+
+</div>
+
+
+<div class="no-results" id="noResults">
+
+<i class="fa-solid fa-car fa-2x"></i>
+
+<h3 style="margin-top:15px;">
+    No vehicles found
+</h3>
+
+<p>
+    Try changing your search or filter options.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ======================================================
+     ABOUT
+====================================================== -->
 
 <section class="intro" id="about">
-  <div class="container intro-grid">
-    <div>
-      <p class="eyebrow">OUR APPROACH</p>
-      <h2>Everything your vehicle needs.</h2>
-      <p><b>United Automotives India brings together pre-owned vehicle solutions, motor insurance and customer support to create a simple, transparent and convenient automotive experience. all segment cars available from maruthi to mercedes range rover audi jaguar bmw we serve individual needs by creating customised financial package toensure that thier dream of owning a luxury car is a reality and our belief is that the buying and selling expirience should be free of stress and overall an enjoayable expirience<br/> <br/> our extensive network and collection of exclusive luxury cars are unmatchable with other in respect to brands, we cater wide range of suv entry and mid segment cars. range rover mercedes amg jaguar bmw and audi all these makes for unique buying expirience for our customers ,allowing them the ability to choose from a variety of brands at a competative prices.we welcome part exchanges and offer competative prices to ensure our clients dont have to invest thier time and money in marketing thier car to a potential buyers.our reputation is demonstarted in our excellence in serving the needs of each of our customers before,during and after the sale with quality assured inventory.many of our clients keep cnanging the driving wheel to enchence thier lifestyle. </b></p>
-      <div class="ticks">
-        <div><i class="fa-solid fa-check"></i> Transparent service</div>
-        <div><i class="fa-solid fa-check"></i> Competitive options</div>
-        <div><i class="fa-solid fa-check"></i> Personalised assistance</div>
-      </div>
-    </div>
-    <div class="intro-image"></div>
-  </div>
+
+<div class="container intro-grid">
+
+<div>
+
+<p class="eyebrow">
+    OUR APPROACH
+</p>
+
+<h2>
+    Everything Your Vehicle Needs.
+</h2>
+
+<div class="intro-copy">
+
+<p>
+<strong>United Automotives India</strong> brings together
+premium pre-owned vehicle solutions, motor insurance and
+customer support to create a simple, transparent and
+convenient automotive experience.
+</p>
+
+<br>
+
+<p>
+Our extensive network and collection of exclusive vehicles
+give customers the opportunity to explore a wide range of
+brands — from practical entry and mid-segment cars to
+premium luxury vehicles from brands such as BMW, Mercedes-Benz,
+Audi, Jaguar and Land Rover.
+</p>
+
+<br>
+
+<p>
+We believe buying and selling a vehicle should be free of
+stress and, most importantly, an enjoyable experience.
+Our team works closely with every customer to understand
+their requirements and provide personalised solutions.
+</p>
+
+<br>
+
+<p>
+We also welcome part exchanges and aim to offer competitive
+prices, allowing our clients to avoid the time and effort
+involved in marketing their vehicle independently.
+</p>
+
+<br>
+
+<p>
+Our reputation is built on excellence in serving the needs
+of our customers before, during and after the sale, with
+quality-assured inventory and dedicated customer support.
+</p>
+
+</div>
+
+
+<div class="ticks">
+
+<div>
+<i class="fa-solid fa-check"></i>
+Transparent service
+</div>
+
+<div>
+<i class="fa-solid fa-check"></i>
+Competitive options
+</div>
+
+<div>
+<i class="fa-solid fa-check"></i>
+Personalised assistance
+</div>
+
+<div>
+<i class="fa-solid fa-check"></i>
+Quality-assured inventory
+</div>
+
+</div>
+
+</div>
+
+
+<div class="intro-image"></div>
+
+</div>
+
 </section>
+
+
+
+<!-- ======================================================
+     SERVICES
+====================================================== -->
 
 <section class="services" id="services">
-  <div class="section-title">
-    <p class="eyebrow">OUR SERVICES</p>
-    <h2>A Complete Automotive Experience</h2>
-    <p>Professional services for individuals, families, businesses and institutions.</p>
-  </div>
-    <article class="card">
-      <span class="number">05</span>
-      <div class="icon"><i class="fa-solid fa-handshake"></i></div>
-      <h3>Car Buying & Selling</h3>
-      <p>Professional assistance for customers buying or selling pre-owned vehicles with transparent dealings.</p>
-      <a href="#contact">GET STARTED →</a>
-    </article>
-  <div class="service-grid container">
-    <article class="card">
-      <span class="number">01</span>
-      <div class="icon"><i class="fa-solid fa-car-side"></i></div>
-      <h3>Pre-Owned Cars</h3>
-      <p>Discover quality pre-owned vehicles selected with attention to condition, documentation and value.</p>
-      <a href="#contact">EXPLORE CARS →</a>
-    </article>
+
+<div class="section-title">
+
+<p class="eyebrow">
+    OUR SERVICES
+</p>
+
+<h2>
+    A Complete Automotive Experience
+</h2>
+
+<p>
+    Professional services for individuals, families,
+    businesses and institutions.
+</p>
+
+</div>
 
 
-    
-    <article class="card">
-      <span class="number">02</span>
-      <div class="icon"><i class="fa-solid fa-shield-halved"></i></div>
-      <h3>Motor Insurance</h3>
-      <p>Compare suitable insurance options and choose coverage that fits your vehicle and requirements.</p>
-      <a href="#contact">GET A QUOTE →</a>
-    </article>
-
-    <article class="card">
-      <span class="number">03</span>
-      <div class="icon"><i class="fa-solid fa-arrows-rotate"></i></div>
-      <h3>Insurance Renewal</h3>
-      <p>Convenient renewal assistance with competitive premium options and customer-focused support.</p>
-      <a href="#contact">RENEW NOW →</a>
-    </article>
-
-    <article class="card">
-      <span class="number">04</span>
-      <div class="icon"><i class="fa-solid fa-file-circle-check"></i></div>
-      <h3>Vehicle Documentation</h3>
-      <p>Assistance with vehicle-related documentation, insurance paperwork and related requirements.</p>
-      <a href="#contact">LEARN MORE →</a>
-    </article>
+<div class="service-grid container">
 
 
-    <article class="card">
-      <span class="number">06</span>
-      <div class="icon"><i class="fa-solid fa-headset"></i></div>
-      <h3>End-to-End Claim Support</h3>
-      <p>Guidance through the insurance claim process, including documentation and next-step assistance.</p>
-      <a href="#contact">CLAIM ASSISTANCE →</a>
-    </article>
-  </div>
+<article class="card">
+
+<span class="number">01</span>
+
+<div class="icon">
+<i class="fa-solid fa-car-side"></i>
+</div>
+
+<h3>
+Pre-Owned Cars
+</h3>
+
+<p>
+Discover quality pre-owned vehicles selected with
+attention to condition, documentation and value.
+</p>
+
+<a href="#cars">
+EXPLORE CARS →
+</a>
+
+</article>
+
+
+
+<article class="card">
+
+<span class="number">02</span>
+
+<div class="icon">
+<i class="fa-solid fa-shield-halved"></i>
+</div>
+
+<h3>
+Motor Insurance
+</h3>
+
+<p>
+Compare suitable insurance options and choose coverage
+that fits your vehicle and requirements.
+</p>
+
+<a href="#insurance">
+GET A QUOTE →
+</a>
+
+</article>
+
+
+
+<article class="card">
+
+<span class="number">03</span>
+
+<div class="icon">
+<i class="fa-solid fa-arrows-rotate"></i>
+</div>
+
+<h3>
+Insurance Renewal
+</h3>
+
+<p>
+Convenient renewal assistance with competitive premium
+options and customer-focused support.
+</p>
+
+<a href="#insurance">
+RENEW NOW →
+</a>
+
+</article>
+
+
+
+<article class="card">
+
+<span class="number">04</span>
+
+<div class="icon">
+<i class="fa-solid fa-file-circle-check"></i>
+</div>
+
+<h3>
+Vehicle Documentation
+</h3>
+
+<p>
+Assistance with vehicle-related documentation,
+insurance paperwork and related requirements.
+</p>
+
+<a href="#contact">
+LEARN MORE →
+</a>
+
+</article>
+
+
+
+<article class="card">
+
+<span class="number">05</span>
+
+<div class="icon">
+<i class="fa-solid fa-handshake"></i>
+</div>
+
+<h3>
+Car Buying & Selling
+</h3>
+
+<p>
+Professional assistance for customers buying or selling
+pre-owned vehicles with transparent dealings.
+</p>
+
+<a href="#contact">
+GET STARTED →
+</a>
+
+</article>
+
+
+
+<article class="card">
+
+<span class="number">06</span>
+
+<div class="icon">
+<i class="fa-solid fa-headset"></i>
+</div>
+
+<h3>
+End-to-End Claim Support
+</h3>
+
+<p>
+Guidance through the insurance claim process, including
+documentation and next-step assistance.
+</p>
+
+<a href="#contact">
+CLAIM ASSISTANCE →
+</a>
+
+</article>
+
+</div>
+
 </section>
+
+
+
+<!-- ======================================================
+     INSURANCE
+====================================================== -->
 
 <section class="insurance" id="insurance">
-  <div class="section-title">
-    <p class="eyebrow">INSURANCE SERVICES</p>
-    <h2>Protection Made Simple</h2>
-    <p>Compare, choose and manage your vehicle insurance with personalised assistance.</p>
-  </div>
 
-  <div class="insurance-grid container">
-    <article class="insurance-card">
-      <i class="fa-solid fa-car-burst big-icon"></i>
-      <h3>Motor Insurance</h3>
-      <p>Explore suitable motor insurance options with assistance in comparing premiums and coverage.</p>
-      <ul>
-        <li><i class="fa-solid fa-check"></i> Competitive premium comparisons</li>
-        <li><i class="fa-solid fa-check"></i> Multiple insurance options</li>
-        <li><i class="fa-solid fa-check"></i> Renewal assistance</li>
-        <li><i class="fa-solid fa-check"></i> Customer support</li>
-      </ul>
-    </article>
+<div class="section-title">
 
-    <article class="insurance-card">
-      <i class="fa-solid fa-person-circle-check big-icon"></i>
-      <h3>Claim Assistance</h3>
-      <p>Customer-focused guidance to help you understand the claim process and required documentation.</p>
-      <ul>
-        <li><i class="fa-solid fa-check"></i> Claim process guidance</li>
-        <li><i class="fa-solid fa-check"></i> Documentation assistance</li>
-        <li><i class="fa-solid fa-check"></i> Coordination support</li>
-        <li><i class="fa-solid fa-check"></i> End-to-end assistance</li>
-      </ul>
-    </article>
-  </div>
+<p class="eyebrow">
+INSURANCE SERVICES
+</p>
+
+<h2>
+Protection Made Simple
+</h2>
+
+<p>
+Compare, choose and manage your vehicle insurance
+with personalised assistance.
+</p>
+
+</div>
+
+
+<div class="insurance-grid container">
+
+
+<article class="insurance-card">
+
+<i class="fa-solid fa-car-burst big-icon"></i>
+
+<h3>
+Motor Insurance
+</h3>
+
+<p>
+Explore suitable motor insurance options with assistance
+in comparing premiums and coverage.
+</p>
+
+<ul>
+
+<li>
+<i class="fa-solid fa-check"></i>
+Competitive premium comparisons
+</li>
+
+<li>
+<i class="fa-solid fa-check"></i>
+Multiple insurance options
+</li>
+
+<li>
+<i class="fa-solid fa-check"></i>
+Renewal assistance
+</li>
+
+<li>
+<i class="fa-solid fa-check"></i>
+Customer support
+</li>
+
+</ul>
+
+</article>
+
+
+
+<article class="insurance-card">
+
+<i class="fa-solid fa-person-circle-check big-icon"></i>
+
+<h3>
+Claim Assistance
+</h3>
+
+<p>
+Customer-focused guidance to help you understand
+the claim process and required documentation.
+</p>
+
+<ul>
+
+<li>
+<i class="fa-solid fa-check"></i>
+Claim process guidance
+</li>
+
+<li>
+<i class="fa-solid fa-check"></i>
+Documentation assistance
+</li>
+
+<li>
+<i class="fa-solid fa-check"></i>
+Coordination support
+</li>
+
+<li>
+<i class="fa-solid fa-check"></i>
+End-to-end assistance
+</li>
+
+</ul>
+
+</article>
+
+</div>
+
 </section>
+
+
+
+<!-- ======================================================
+     PROCESS
+====================================================== -->
 
 <section class="process">
-  <div class="section-title">
-    <p class="eyebrow">HOW IT WORKS</p>
-    <h2>Simple. Transparent. Convenient.</h2>
-  </div>
-  <div class="process-grid container">
-    <div><div class="process-icon"><i class="fa-solid fa-comments"></i></div><h3>01. Tell Us</h3><p>Share your vehicle or insurance requirement.</p></div>
-    <div><div class="process-icon"><i class="fa-solid fa-magnifying-glass"></i></div><h3>02. We Compare</h3><p>We identify suitable options for you.</p></div>
-    <div><div class="process-icon"><i class="fa-solid fa-list-check"></i></div><h3>03. You Choose</h3><p>Review options and make an informed decision.</p></div>
-    <div><div class="process-icon"><i class="fa-solid fa-circle-check"></i></div><h3>04. We Assist</h3><p>Our team supports you through the next steps.</p></div>
-  </div>
+
+<div class="section-title">
+
+<p class="eyebrow">
+HOW IT WORKS
+</p>
+
+<h2>
+Simple. Transparent. Convenient.
+</h2>
+
+</div>
+
+
+<div class="process-grid container">
+
+
+<div>
+
+<div class="process-icon">
+<i class="fa-solid fa-comments"></i>
+</div>
+
+<h3>
+01. Tell Us
+</h3>
+
+<p>
+Share your vehicle or insurance requirement.
+</p>
+
+</div>
+
+
+
+<div>
+
+<div class="process-icon">
+<i class="fa-solid fa-magnifying-glass"></i>
+</div>
+
+<h3>
+02. We Compare
+</h3>
+
+<p>
+We identify suitable options for you.
+</p>
+
+</div>
+
+
+
+<div>
+
+<div class="process-icon">
+<i class="fa-solid fa-list-check"></i>
+</div>
+
+<h3>
+03. You Choose
+</h3>
+
+<p>
+Review options and make an informed decision.
+</p>
+
+</div>
+
+
+
+<div>
+
+<div class="process-icon">
+<i class="fa-solid fa-circle-check"></i>
+</div>
+
+<h3>
+04. We Assist
+</h3>
+
+<p>
+Our team supports you through the next steps.
+</p>
+
+</div>
+
+</div>
+
 </section>
+
+
+
+<!-- ======================================================
+     CTA
+====================================================== -->
 
 <section class="cta" id="contact">
-  <p class="eyebrow">UNITED AUTOMOTIVES INDIA</p>
-  <h2>Need Automotive Assistance?</h2>
-  <p>Speak with our team for vehicles, insurance and related automotive services.</p>
-  <div class="buttons center">
-    <a class="btn primary" href="tel:+919845175703"><i class="fa-solid fa-phone"></i>&nbsp; +91 98451 75703</a>
-    <a class="btn whatsapp" href="https://wa.me/919845175703" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i>&nbsp; WHATSAPP</a>
-  </div>
+
+<p class="eyebrow">
+UNITED AUTOMOTIVES INDIA
+</p>
+
+<h2>
+Need Automotive Assistance?
+</h2>
+
+<p>
+Speak with our team for vehicles, insurance and
+related automotive services.
+</p>
+
+
+<div class="buttons center">
+
+<a class="btn primary"
+href="tel:+919845175703">
+
+<i class="fa-solid fa-phone"></i>
+&nbsp; +91 98451 75703
+
+</a>
+
+
+<a class="btn whatsapp"
+href="https://wa.me/919845175703?text=Hello%20United%20Automotives%20India%2C%20I%20am%20interested%20in%20your%20vehicles."
+target="_blank"
+rel="noopener">
+
+<i class="fa-brands fa-whatsapp"></i>
+&nbsp; WHATSAPP
+
+</a>
+
+</div>
+
 </section>
+
+
 </main>
 
+
+
+<!-- ======================================================
+     FOOTER
+====================================================== -->
+
 <footer>
-  <div class="footer-grid container">
-    <div><h3>UNITED AUTOMOTIVES INDIA</h3><p>Premium pre-owned vehicles and comprehensive automotive services for individuals and businesses.</p></div>
-    <div><h3>SERVICES</h3><a href="#services">Pre-Owned Cars</a><a href="#insurance">Motor Insurance</a><a href="#insurance">Claim Support</a></div>
-    <div><h3>COMPANY</h3><a href="#about">About Us</a><a href="#services">Our Services</a><a href="#contact">Contact</a></div>
-    <div><h3>CONTACT</h3><p>Infantry Road Cross<br>Bengaluru, Karnataka</p><p>+91 98451 75703</p></div>
-  </div>
-  <div class="copyright container">© 2026 United Automotives India. All Rights Reserved.</div>
+
+<div class="footer-grid container">
+
+
+<div>
+
+<h3>
+UNITED AUTOMOTIVES INDIA
+</h3>
+
+<p>
+Premium pre-owned vehicles and comprehensive
+automotive services for individuals and businesses.
+</p>
+
+</div>
+
+
+
+<div>
+
+<h3>
+SERVICES
+</h3>
+
+<a href="#cars">
+Pre-Owned Cars
+</a>
+
+<a href="#insurance">
+Motor Insurance
+</a>
+
+<a href="#insurance">
+Claim Support
+</a>
+
+</div>
+
+
+
+<div>
+
+<h3>
+COMPANY
+</h3>
+
+<a href="#about">
+About Us
+</a>
+
+<a href="#services">
+Our Services
+</a>
+
+<a href="#contact">
+Contact
+</a>
+
+</div>
+
+
+
+<div>
+
+<h3>
+CONTACT
+</h3>
+
+<p>
+Infantry Road Cross<br>
+Bengaluru, Karnataka
+</p>
+
+<p>
++91 98451 75703
+</p>
+
+</div>
+
+</div>
+
+
+<div class="copyright container">
+
+© 2026 United Automotives India.
+All Rights Reserved.
+
+</div>
+
 </footer>
+
+
+
+<!-- ======================================================
+     CAR DETAILS MODAL
+====================================================== -->
+
+<div class="modal" id="carModal">
+
+<div class="modal-box">
+
+<button
+class="modal-close"
+onclick="closeCar()">
+
+<i class="fa-solid fa-xmark"></i>
+
+</button>
+
+
+<div class="modal-image">
+
+<img
+id="modalImage"
+src=""
+alt="Vehicle"
+>
+
+</div>
+
+
+<div class="modal-content">
+
+<p class="eyebrow">
+UNITED AUTOMOTIVES INDIA
+</p>
+
+<h2
+class="car-title"
+id="modalTitle">
+</h2>
+
+
+<ul class="detail-list">
+
+<li>
+<span>Model Year</span>
+<strong id="modalYear"></strong>
+</li>
+
+<li>
+<span>Kilometres</span>
+<strong id="modalKm"></strong>
+</li>
+
+<li>
+<span>Ownership</span>
+<strong id="modalOwner"></strong>
+</li>
+
+<li>
+<span>Fuel</span>
+<strong id="modalFuel"></strong>
+</li>
+
+<li>
+<span>Transmission</span>
+<strong id="modalTransmission"></strong>
+</li>
+
+</ul>
+
+
+<div
+class="modal-price"
+id="modalPrice">
+</div>
+
+
+<div class="buttons">
+
+<a
+id="modalWhatsApp"
+class="btn whatsapp"
+href="#"
+target="_blank"
+rel="noopener">
+
+<i class="fa-brands fa-whatsapp"></i>
+&nbsp; ENQUIRE ON WHATSAPP
+
+</a>
+
+
+<a
+class="btn primary"
+href="tel:+919845175703">
+
+<i class="fa-solid fa-phone"></i>
+&nbsp; CALL NOW
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<!-- FLOATING WHATSAPP -->
+
+<a
+class="whatsapp-float"
+href="https://wa.me/919845175703?text=Hello%20United%20Automotives%20India%2C%20I%20am%20interested%20in%20your%20cars."
+target="_blank"
+rel="noopener"
+aria-label="WhatsApp">
+
+<i class="fa-brands fa-whatsapp"></i>
+
+</a>
+
+
+
+<!-- ======================================================
+     JAVASCRIPT
+====================================================== -->
+
+<script>
+
+
+/* =========================================================
+   CAR FILTER
+========================================================= */
+
+const brandFilter =
+document.getElementById("brandFilter");
+
+const fuelFilter =
+document.getElementById("fuelFilter");
+
+const transmissionFilter =
+document.getElementById("transmissionFilter");
+
+const yearFilter =
+document.getElementById("yearFilter");
+
+const searchCar =
+document.getElementById("searchCar");
+
+const carCards =
+document.querySelectorAll(".car-card");
+
+const noResults =
+document.getElementById("noResults");
+
+
+function filterCars(){
+
+    const brand =
+    brandFilter.value.toLowerCase();
+
+    const fuel =
+    fuelFilter.value.toLowerCase();
+
+    const transmission =
+    transmissionFilter.value.toLowerCase();
+
+    const year =
+    yearFilter.value.toLowerCase();
+
+    const search =
+    searchCar.value.toLowerCase();
+
+    let visibleCars = 0;
+
+
+    carCards.forEach(card => {
+
+        const cardBrand =
+        card.dataset.brand.toLowerCase();
+
+        const cardFuel =
+        card.dataset.fuel.toLowerCase();
+
+        const cardTransmission =
+        card.dataset.transmission.toLowerCase();
+
+        const cardYear =
+        card.dataset.year.toLowerCase();
+
+        const cardText =
+        card.innerText.toLowerCase();
+
+
+        const matchesBrand =
+        brand === "all" ||
+        cardBrand.includes(brand);
+
+        const matchesFuel =
+        fuel === "all" ||
+        cardFuel === fuel;
+
+        const matchesTransmission =
+        transmission === "all" ||
+        cardTransmission === transmission;
+
+        const matchesYear =
+        year === "all" ||
+        cardYear === year;
+
+        const matchesSearch =
+        search === "" ||
+        cardText.includes(search);
+
+
+        if(
+            matchesBrand &&
+            matchesFuel &&
+            matchesTransmission &&
+            matchesYear &&
+            matchesSearch
+        ){
+
+            card.style.display = "";
+
+            visibleCars++;
+
+        }else{
+
+            card.style.display = "none";
+
+        }
+
+    });
+
+
+    if(visibleCars === 0){
+
+        noResults.style.display = "block";
+
+    }else{
+
+        noResults.style.display = "none";
+
+    }
+
+}
+
+
+brandFilter.addEventListener(
+"change",
+filterCars
+);
+
+fuelFilter.addEventListener(
+"change",
+filterCars
+);
+
+transmissionFilter.addEventListener(
+"change",
+filterCars
+);
+
+yearFilter.addEventListener(
+"change",
+filterCars
+);
+
+searchCar.addEventListener(
+"input",
+filterCars
+);
+
+
+
+/* =========================================================
+   CAR DETAILS MODAL
+========================================================= */
+
+function openCar(
+title,
+year,
+km,
+owner,
+fuel,
+transmission,
+price,
+image
+){
+
+    document.getElementById(
+        "modalTitle"
+    ).innerText = title;
+
+    document.getElementById(
+        "modalYear"
+    ).innerText = year;
+
+    document.getElementById(
+        "modalKm"
+    ).innerText = km;
+
+    document.getElementById(
+        "modalOwner"
+    ).innerText = owner;
+
+    document.getElementById(
+        "modalFuel"
+    ).innerText = fuel;
+
+    document.getElementById(
+        "modalTransmission"
+    ).innerText = transmission;
+
+    document.getElementById(
+        "modalPrice"
+    ).innerText = price;
+
+    document.getElementById(
+        "modalImage"
+    ).src = image;
+
+
+    const message =
+    `Hello United Automotives India,
+
+I am interested in the ${title}.
+
+Year: ${year}
+Kilometres: ${km}
+Price: ${price}
+
+Please share more details.`;
+
+    document.getElementById(
+        "modalWhatsApp"
+    ).href =
+    "https://wa.me/919845175703?text=" +
+    encodeURIComponent(message);
+
+
+    document.getElementById(
+        "carModal"
+    ).classList.add("active");
+
+    document.body.style.overflow =
+    "hidden";
+}
+
+
+function closeCar(){
+
+    document.getElementById(
+        "carModal"
+    ).classList.remove("active");
+
+    document.body.style.overflow =
+    "";
+
+}
+
+
+/* Close modal when clicking outside */
+
+document.getElementById(
+    "carModal"
+).addEventListener(
+    "click",
+    function(e){
+
+        if(e.target === this){
+
+            closeCar();
+
+        }
+
+    }
+);
+
+
+/* Close modal with ESC */
+
+document.addEventListener(
+"keydown",
+function(e){
+
+    if(e.key === "Escape"){
+
+        closeCar();
+
+    }
+
+});
+
+
+/* =========================================================
+   NAVIGATION ACTIVE STATE
+========================================================= */
+
+const navLinks =
+document.querySelectorAll("nav a");
+
+window.addEventListener(
+"scroll",
+function(){
+
+    let current = "";
+
+    document
+    .querySelectorAll("section[id]")
+    .forEach(section => {
+
+        const sectionTop =
+        section.offsetTop - 150;
+
+        if(
+            window.scrollY >=
+            sectionTop
+        ){
+
+            current =
+            section.getAttribute("id");
+
+        }
+
+    });
+
+
+    navLinks.forEach(link => {
+
+        link.classList.remove("active");
+
+        if(
+            link.getAttribute("href") ===
+            "#" + current
+        ){
+
+            link.classList.add("active");
+
+        }
+
+    });
+
+});
+
+
+</script>
+
+
 </body>
 </html>
