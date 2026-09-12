@@ -567,4 +567,31 @@ footer a:hover{
   .footer-grid{
     grid-template-columns:1fr
   }
+}.social-links{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-top:20px;
+}
+
+.social-links a{
+    width:42px;
+    height:42px;
+    border:1px solid rgba(255,255,255,.18);
+    background:rgba(255,255,255,.05);
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    font-size:17px;
+    transition:all .3s ease;
+}
+
+.social-links a:hover{
+    background:#1685a4;
+    border-color:#1685a4;
+    color:#fff;
+    transform:translateY(-4px);
+    box-shadow:0 8px 20px rgba(22,133,164,.25);
 }
