@@ -595,7 +595,6 @@ footer a:hover{
     transform:translateY(-4px);
     box-shadow:0 8px 20px rgba(22,133,164,.25);
 }
-
 /* ============================
    FAQ SECTION
    ============================ */
@@ -660,4 +659,18 @@ footer a:hover{
   .faq{
     padding:56px 0
   }
+}
+
+.slide-one {
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(5,22,35,0.78) 0%,
+            rgba(5,22,35,0.48) 45%,
+            rgba(5,22,35,0.10) 100%
+        ),
+        url("YOUR_NEW_CAR_IMAGE.jpg");
+
+    background-size: cover;
+    background-position: center;
 }
