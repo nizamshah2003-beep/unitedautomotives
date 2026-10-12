@@ -1,0 +1,12 @@
+{
+  "name": "United Automotives India",
+  "short_name": "UA India",
+  "description": "Pre-owned cars, motor insurance, renewals, documentation and claim assistance in Bengaluru.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#111111",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
