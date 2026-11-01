@@ -1853,3 +1853,12 @@ footer {
 .home-services-cta p:not(.eyebrow){font-size:13px;color:#617382}
 @media(max-width:900px){.home-service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.home-services{padding:75px 0}}
 @media(max-width:600px){.home-service-grid{grid-template-columns:1fr}.home-service-card{padding:25px}.home-services-cta{align-items:flex-start;flex-direction:column;padding:25px}.home-services-cta h3{font-size:20px}}
+
+/* BRIGHT MOTO BRAND ARTWORK ON HOME AND SERVICES */
+.home-bright-art{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:12px;margin:0 0 22px}
+.home-bright-card .home-service-icon{display:none}
+.bright-moto-service-card{overflow:hidden}
+.bright-moto-service-art{margin:-35px -35px 24px;overflow:hidden;background:#102b50}
+.bright-moto-service-art img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}
+.bright-moto-service-card .number{z-index:1;background:#fff;border-radius:20px;padding:3px 8px}
+@media(max-width:600px){.bright-moto-service-art{margin:-25px -25px 20px}}
