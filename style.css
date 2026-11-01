@@ -1826,3 +1826,30 @@ footer {
     }
 
 }
+
+
+/* =========================================================
+   HOMEPAGE SERVICE SHOWCASE
+========================================================= */
+.home-services{padding:100px 0;background:#f1f8fc}
+.home-service-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.home-service-card{background:#fff;border:1px solid #dfebf2;border-radius:18px;padding:30px;box-shadow:0 12px 32px rgba(30,80,110,.06);transition:transform .25s ease,box-shadow .25s ease}
+.home-service-card:hover{transform:translateY(-5px);box-shadow:0 18px 38px rgba(30,80,110,.12)}
+.home-service-icon{width:54px;height:54px;display:grid;place-items:center;border-radius:15px;background:#e5f4fc;color:#1686c7;font-size:22px;margin-bottom:22px}
+.home-service-kicker{font-size:10px!important;font-weight:800;letter-spacing:1.5px;color:#b18424!important;margin-bottom:8px!important}
+.home-service-card h3{font-size:20px;color:#152b40;margin-bottom:10px}
+.home-service-card>p:not(.home-service-kicker){font-size:13px;color:#617382;line-height:1.75;margin-bottom:20px}
+.home-service-card>a{font-size:11px;font-weight:800;letter-spacing:.5px;color:#1677b8}
+.home-service-card>a i{margin-left:5px}
+.home-bright-card{background:linear-gradient(145deg,#102b50,#174d78);border-color:#c9a44b;color:#fff}
+.home-bright-card .home-service-icon{background:rgba(255,255,255,.13);color:#f0c75e}
+.home-bright-card .home-service-kicker{color:#f0c75e!important}
+.home-bright-card h3{color:#fff}
+.home-bright-card>p:not(.home-service-kicker){color:#e0eaf3}
+.home-bright-card>a{color:#f3d477}
+.home-services-cta{margin-top:30px;padding:30px 34px;background:#fff;border:1px solid #dfebf2;border-radius:18px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.home-services-cta .eyebrow{margin-bottom:5px}
+.home-services-cta h3{font-size:23px;color:#152b40;margin-bottom:5px}
+.home-services-cta p:not(.eyebrow){font-size:13px;color:#617382}
+@media(max-width:900px){.home-service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.home-services{padding:75px 0}}
+@media(max-width:600px){.home-service-grid{grid-template-columns:1fr}.home-service-card{padding:25px}.home-services-cta{align-items:flex-start;flex-direction:column;padding:25px}.home-services-cta h3{font-size:20px}}
