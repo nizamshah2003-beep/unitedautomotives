@@ -138,6 +138,27 @@
 
     </script>
 <link href="style.css" rel="stylesheet"/>
+
+<style>
+/* BrightMoto homepage brand spotlight */
+.bm-home-spotlight{position:relative;isolation:isolate;overflow:hidden;padding:76px 0;background:linear-gradient(120deg,#071b34 0%,#0d3763 58%,#12558a 100%);color:#fff}
+.bm-home-spotlight:before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(circle at 12% 15%,rgba(215,170,63,.16),transparent 32%),radial-gradient(circle at 92% 85%,rgba(77,174,226,.16),transparent 34%)}
+.bm-home-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:42px;align-items:center}
+.bm-home-copy .eyebrow{color:#f0cd72;font-size:11px;font-weight:900;letter-spacing:2px}
+.bm-home-copy h2{color:#fff;font-size:clamp(30px,4.2vw,48px);line-height:1.13;margin:12px 0 16px;letter-spacing:-1px}
+.bm-home-copy h2 span{color:#f0cd72}
+.bm-home-copy>p:not(.eyebrow){max-width:530px;color:#dce8f3;font-size:14px;line-height:1.85}
+.bm-home-points{display:flex;flex-wrap:wrap;gap:9px;margin:22px 0 25px}
+.bm-home-points span{border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.07);border-radius:30px;padding:8px 12px;color:#f4f7fa;font-size:10px;font-weight:800;letter-spacing:.35px}
+.bm-home-actions{display:flex;gap:12px;flex-wrap:wrap}
+.bm-home-actions a{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:13px 18px;border-radius:5px;background:linear-gradient(115deg,#f3d987,#d7aa3f);color:#09264a;font-size:10px;font-weight:900;letter-spacing:.65px}
+.bm-home-actions a.alt{background:transparent;border:1px solid #e3c36d;color:#f4d989}
+.bm-home-art{display:block;padding:9px;border:3px solid #d7aa3f;border-radius:13px;background:#fff;box-shadow:0 22px 55px rgba(0,0,0,.25)}
+.bm-home-art img{display:block;width:100%;height:auto;border-radius:5px}
+.bm-home-caption{text-align:center;color:#d7e4ef;font-size:10px;letter-spacing:1.3px;font-weight:800;margin-top:13px;text-transform:uppercase}
+@media(max-width:850px){.bm-home-grid{grid-template-columns:1fr;gap:28px}.bm-home-copy{max-width:680px}.bm-home-art{max-width:760px}.bm-home-spotlight{padding:58px 0}}
+@media(max-width:560px){.bm-home-spotlight{padding:46px 0}.bm-home-copy h2{font-size:32px}.bm-home-actions a{flex:1}.bm-home-points{gap:7px}}
+</style>
 </head>
 <body>
 <!-- ACCESSIBILITY -->
@@ -437,6 +458,29 @@
 <div aria-label="Premium pre-owned car available at United Automotives India" class="intro-image" role="img">
 </div>
 </div>
+</section>
+
+<section class="bm-home-spotlight" id="brightmoto-home-spotlight" aria-labelledby="bm-home-title">
+  <div class="container bm-home-grid">
+    <div class="bm-home-copy">
+      <p class="eyebrow">INTRODUCING OUR AUTOMOTIVE CARE BRAND</p>
+      <h2 id="bm-home-title">Meet <span>BrightMoto</span><br>Care for Every Ride.</h2>
+      <p>Discover BrightMoto by United Automotives India — a growing range of car and bike care products, supported by specialist solutions for aviation-care enquiries. Explore the catalogue and contact our team for product information, availability and trade opportunities.</p>
+      <div class="bm-home-points" aria-label="BrightMoto product categories">
+        <span>CAR CARE</span><span>BIKE CARE</span><span>AVIATION CARE</span><span>RETAIL &amp; DISTRIBUTION</span>
+      </div>
+      <div class="bm-home-actions">
+        <a href="bright-moto.html">EXPLORE BRIGHTMOTO</a>
+        <a class="alt" href="https://wa.me/919845175703?text=Hello%20BrightMoto%2C%20I%20would%20like%20product%20information." target="_blank" rel="noopener noreferrer">PRODUCT ENQUIRY</a>
+      </div>
+    </div>
+    <div>
+      <a class="bm-home-art" href="bright-moto.html" aria-label="Explore the official BrightMoto product catalogue">
+        <img src="assets/brightmoto-official-poster.jpg" alt="BrightMoto official catalogue showcasing aviation, car and bike care products" loading="lazy">
+      </a>
+      <p class="bm-home-caption">BrightMoto · Aviation, Car &amp; Bike Care Products</p>
+    </div>
+  </div>
 </section>
 <section class="home-services" aria-labelledby="home-services-title" id="our-services">
   <div class="container">
