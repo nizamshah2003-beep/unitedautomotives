@@ -158,6 +158,25 @@
 .bm-home-caption{text-align:center;color:#d7e4ef;font-size:10px;letter-spacing:1.3px;font-weight:800;margin-top:13px;text-transform:uppercase}
 @media(max-width:850px){.bm-home-grid{grid-template-columns:1fr;gap:28px}.bm-home-copy{max-width:680px}.bm-home-art{max-width:760px}.bm-home-spotlight{padding:58px 0}}
 @media(max-width:560px){.bm-home-spotlight{padding:46px 0}.bm-home-copy h2{font-size:32px}.bm-home-actions a{flex:1}.bm-home-points{gap:7px}}
+/* Keep the homepage BrightMoto brand introduction fully clear of the fixed-looking overlay header. */
+.bm-home-spotlight{padding-top:124px;padding-bottom:76px;scroll-margin-top:96px}
+.bm-home-grid{min-width:0}
+.bm-home-copy,.bm-home-grid>div{min-width:0}
+.bm-home-art{width:100%;box-sizing:border-box}
+.bm-home-art img{width:100%;height:auto;object-fit:contain}
+@media(max-width:850px){
+  .bm-home-spotlight{padding-top:108px;padding-bottom:58px}
+  .bm-home-grid{gap:24px}
+}
+@media(max-width:560px){
+  .bm-home-spotlight{padding-top:104px;padding-bottom:46px}
+  .bm-home-copy h2{font-size:clamp(28px,8vw,34px);line-height:1.16}
+  .bm-home-copy .eyebrow{font-size:10px;letter-spacing:1.5px}
+  .bm-home-copy>p:not(.eyebrow){font-size:13px;line-height:1.7}
+  .bm-home-points span{font-size:9px;padding:7px 9px}
+  .bm-home-actions{flex-direction:column}
+  .bm-home-actions a{width:100%;box-sizing:border-box}
+}
 </style>
 </head>
 <body>
