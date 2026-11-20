@@ -12,18 +12,34 @@
 <rect x="136" y="52" width="148" height="88" rx="16" fill="url(#ribs)" opacity=".7"/>
 <rect x="135" y="255" width="150" height="240" rx="12" fill="#05080e" stroke="url(#gold)" stroke-width="4"/>
 <path d="M137 269h146v25H137z" fill="url(#gold)"/>
-<g transform="translate(210 319)">
+<g transform="translate(210 292)">
  <path d="M-65 -7q-34 -35 -56 -9q25 1 39 25q-10 -20 -30 -21q23 12 32 29l15 -7M65 -7q34 -35 56 -9q-25 1 -39 25q10 -20 30 -21q-23 12 -32 29l-15 -7" fill="url(#gold)" stroke="#fbe39a" stroke-width="2"/>
  <ellipse rx="43" ry="29" fill="#07090d" stroke="url(#gold)" stroke-width="3"/>
  <text y="7" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="900" fill="#fff">UA</text>
 </g>
-<text x="210" y="376" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-style="italic" font-weight="900" fill="#fff">BRIGHT<tspan fill="#f4c33f">MOTO</tspan></text>
-<text x="210" y="396" text-anchor="middle" font-family="Arial,sans-serif" font-size="8.5" letter-spacing=".8" font-weight="700" fill="#e9eef5">CAR AND BIKE CARE PRODUCTS</text>
-<path d="M145 407h130" stroke="url(#gold)" stroke-width="2"/>
-<text x="210" y="432" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="900" fill="#fff">Odour Remover</text>
-<text x="210" y="452" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="900" fill="#f6c947">& Cabin Sanitizer</text>
-<rect x="138" y="467" width="144" height="27" fill="url(#gold)"/>
-<text x="210" y="485" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="900" fill="#111">200 ML</text>
+<text x="210" y="349" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-style="italic" font-weight="900" fill="#fff">BRIGHT<tspan fill="#f4c33f">MOTO</tspan></text>
+<text x="210" y="369" text-anchor="middle" font-family="Arial,sans-serif" font-size="8.5" letter-spacing=".8" font-weight="700" fill="#e9eef5">CAR AND BIKE CARE PRODUCTS</text>
+<g transform="translate(210 405)" aria-label="Blue car and red motorcycle illustration">
+ <g transform="translate(-69 0)">
+  <path d="M0 2l7-13q3-6 11-6h29q8 0 13 7l10 12-3 7H4z" fill="#087bd2" stroke="#a8dfff" stroke-width="1.6"/>
+  <path d="M16-14h28q6 0 10 6H12z" fill="#b9e8ff" stroke="#d9f5ff" stroke-width="1"/>
+  <path d="M34-14v7h22" stroke="#0b477e" stroke-width="1.5" fill="none"/>
+  <circle cx="17" cy="9" r="7" fill="#111923" stroke="#dce7f0" stroke-width="2"/><circle cx="17" cy="9" r="2.7" fill="#9eabb8"/>
+  <circle cx="55" cy="9" r="7" fill="#111923" stroke="#dce7f0" stroke-width="2"/><circle cx="55" cy="9" r="2.7" fill="#9eabb8"/>
+ </g>
+ <g transform="translate(13 -1)">
+  <circle cx="10" cy="11" r="7.5" fill="#111923" stroke="#e5edf5" stroke-width="2"/><circle cx="10" cy="11" r="2.5" fill="#9eabb8"/>
+  <circle cx="52" cy="11" r="7.5" fill="#111923" stroke="#e5edf5" stroke-width="2"/><circle cx="52" cy="11" r="2.5" fill="#9eabb8"/>
+  <path d="M10 10l15-13 11 1 16 13M25-3l-7-8M36-2l8-8 6 1" fill="none" stroke="#e32636" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M25-4q6-9 15-5l7 6-8 5-15-1z" fill="#e32636" stroke="#ffb3b8" stroke-width="1"/>
+  <path d="M30-8l-9-5h-8M42-8l9-7 6 1" fill="none" stroke="#1b2633" stroke-width="3" stroke-linecap="round"/>
+ </g>
+</g>
+<path d="M145 382h130" stroke="url(#gold)" stroke-width="2"/>
+<text x="210" y="450" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="900" fill="#fff">Odour Remover</text>
+<text x="210" y="470" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="900" fill="#f6c947">& Cabin Sanitizer</text>
+<rect x="138" y="503" width="144" height="27" fill="url(#gold)"/>
+<text x="210" y="503" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="900" fill="#111">200 ML</text>
 <text x="210" y="518" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="900" fill="#d6a83d">CABIN CARE</text>
 <text x="210" y="535" text-anchor="middle" font-family="Arial,sans-serif" font-size="8.5" font-weight="700" fill="#25384d">FRESH CABIN • ODOUR CONTROL</text>
 <path d="M150 548h120" stroke="#d8b14c" stroke-width="2"/>
