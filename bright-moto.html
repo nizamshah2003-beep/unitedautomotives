@@ -103,7 +103,19 @@
   .bm-product-photo{height:380px;max-height:380px;margin:12px 0 16px}
 }
 
-.bm-use-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.bm-use-card{background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:12px;padding:22px;box-shadow:0 8px 24px rgba(9,38,74,.06)}.bm-use-kicker{font-size:10px;font-weight:900;letter-spacing:1.5px;color:#176ca5}.bm-use-card h3{color:var(--navy);font-size:18px;margin:6px 0 9px}.bm-use-card p{font-size:13px;color:var(--muted);margin:0;line-height:1.8}@media(max-width:650px){.bm-use-grid{grid-template-columns:1fr}}</style>
+.bm-use-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.bm-use-card{background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:12px;padding:22px;box-shadow:0 8px 24px rgba(9,38,74,.06)}.bm-use-kicker{font-size:10px;font-weight:900;letter-spacing:1.5px;color:#176ca5}.bm-use-card h3{color:var(--navy);font-size:18px;margin:6px 0 9px}.bm-use-card p{font-size:13px;color:var(--muted);margin:0;line-height:1.8}@media(max-width:650px){.bm-use-grid{grid-template-columns:1fr}}
+/* Sectional product demonstrations */
+.bm-demo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;align-items:stretch}
+.bm-demo-card{display:grid;grid-template-columns:minmax(125px,34%) 1fr;gap:18px;padding:20px;background:#fff;border:1px solid #dce7f0;border-radius:16px;box-shadow:0 10px 26px rgba(9,38,74,.07);align-items:start}
+.bm-demo-card>img{display:block;width:100%;max-height:290px;object-fit:contain;object-position:top center;background:linear-gradient(180deg,#fff,#f2f6fa);border-radius:12px;border:1px solid #e6edf3;padding:6px}
+.bm-demo-card h3{margin:7px 0 10px;color:#102b49;font-size:1.22rem}
+.bm-demo-card p,.bm-demo-card li{font-size:.94rem;line-height:1.55;color:#33465a}
+.bm-demo-card ol{padding-left:20px;margin:10px 0}
+.bm-demo-card li{padding-left:3px;margin:5px 0}
+.bm-demo-warning{padding:10px 12px;background:#fff8e7;border-left:3px solid #d5a52f;border-radius:7px}
+@media(max-width:900px){.bm-demo-grid{grid-template-columns:1fr}}
+@media(max-width:560px){.bm-demo-card{grid-template-columns:105px minmax(0,1fr);gap:12px;padding:13px}.bm-demo-card>img{max-height:200px}.bm-demo-card h3{font-size:1.05rem}.bm-demo-card p,.bm-demo-card li{font-size:.88rem}}
+</style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Brand","name":"Bright Moto","description":"Car and bike care products marketed by United Automotives India.","url":"https://www.unitedautomotivesindia.com/bright-moto.html"}</script>
 
 <style>
@@ -162,28 +174,67 @@
 <section class="section bm-poster-gallery" id="demo-posters" aria-labelledby="bm-posters-title">
   <div class="wrap">
     <div class="heading">
-      <div class="eyebrow">BrightMoto visual demonstrations</div>
-      <h2 id="bm-posters-title">Product Demo Posters</h2>
-      <p>Explore BrightMoto product-use artwork alongside the detailed application guides below. Select any poster to view it at full size.</p>
+      <div class="eyebrow">BrightMoto product demonstrations</div>
+      <h2 id="bm-posters-title">Product Demonstrations &amp; Complete Use Guides</h2>
+      <p>Choose a product to see its purpose, recommended application sequence and important precautions. The bottle artwork is shown with each guide; always follow the approved pack label.</p>
     </div>
-    <div class="bm-poster-grid">
-      <a class="bm-poster-card" href="assets/file_000000005a9482119ae2b262be54950e.png" target="_blank" rel="noopener">
-        <img src="assets/file_000000005a9482119ae2b262be54950e.png" alt="BrightMoto product demonstration poster artwork one" loading="lazy">
-        <span>View demonstration poster</span>
-      </a>
-      <a class="bm-poster-card" href="assets/file_0000000087b08211a09104de292c9507.png" target="_blank" rel="noopener">
-        <img src="assets/file_0000000087b08211a09104de292c9507.png" alt="BrightMoto product demonstration poster artwork two" loading="lazy">
-        <span>View demonstration poster</span>
-      </a>
-      <a class="bm-poster-card" href="assets/file_00000000c748820ba51434027ed2f678.png" target="_blank" rel="noopener">
-        <img src="assets/file_00000000c748820ba51434027ed2f678.png" alt="BrightMoto product demonstration poster artwork three" loading="lazy">
-        <span>View demonstration poster</span>
-      </a>
+    <div class="bm-demo-grid">
+      <article class="bm-demo-card" id="demo-helmet">
+        <img src="assets/helmet-cleaner.svg" alt="BrightMoto Helmet Cleaner bottle" loading="lazy">
+        <div><span class="bm-use-kicker">BIKE &amp; RIDER CARE · 250 ML</span><h3>Helmet Cleaner &amp; Odour Remover</h3>
+        <p><strong>Purpose:</strong> Foam cleaning and freshening of compatible inner helmet foam and fabric lining.</p>
+        <ol><li>Use only when the helmet will not be needed for at least <strong>1 hour</strong>.</li><li>Place the helmet in an open, well-ventilated area. Never spray while wearing it.</li><li>Spray evenly over compatible inner foam and fabric lining; allow the rich foam to spread through the treated area.</li><li>Allow about <strong>1 minute</strong> for the cleaning action.</li><li>Keep the helmet unused for <strong>30–45 minutes</strong> so the wetness can dry completely. Wear only when the lining is fully dry.</li></ol>
+        <p class="bm-demo-warning"><strong>Important:</strong> Avoid direct application to the visor, electronics, ventilation components and chin strap. Check compatibility on a small area first.</p></div>
+      </article>
+      <article class="bm-demo-card" id="demo-odour">
+        <img src="assets/odour-remover-cabin-sanitizer.svg" alt="BrightMoto Odour Remover and Cabin Sanitizer bottle" loading="lazy">
+        <div><span class="bm-use-kicker">CABIN CARE · 200 ML</span><h3>Odour Remover &amp; Cabin Sanitizer</h3>
+        <p><strong>Purpose:</strong> Help reduce unpleasant cabin odours and leave a fresh fragrance.</p>
+        <ol><li>Use only in a parked vehicle in a safe, open and well-ventilated location.</li><li>Start the vehicle and set the A/C to full cooling and full circulation only if this method is expressly permitted by the product label.</li><li>Place the can upright on a stable floor area, preferably near the centre of the cabin.</li><li>Activate the spray only as directed on the can. Close doors and windows only for the label-approved treatment period.</li><li>The supplied demonstration describes an <strong>8–10 minute</strong> circulation period. After the can is empty, wait about <strong>5 minutes</strong>, then open the doors and ventilate thoroughly.</li></ol>
+        <p class="bm-demo-warning"><strong>Critical safety:</strong> No driver, passengers, children or pets may remain inside. Do not leave the vehicle unattended. Do not use automatic-release fogging unless the final can label explicitly approves it. Follow all re-entry and ventilation instructions on the label.</p></div>
+      </article>
+      <article class="bm-demo-card" id="demo-windscreen">
+        <img src="assets/windshield-additive.svg" alt="BrightMoto Windscreen Additive bottle" loading="lazy">
+        <div><span class="bm-use-kicker">GLASS &amp; VISIBILITY · CURRENT CATALOGUE SIZE: 100 ML</span><h3>Windscreen Additive</h3>
+        <p><strong>Purpose:</strong> Washer-fluid additive to help remove dirt, dust and road stains and support a clear windscreen.</p>
+        <ol><li>Measure <strong>25 ml</strong> of BrightMoto Windscreen Additive.</li><li>Mix with <strong>2 litres of clean water</strong>.</li><li>Pour the prepared mixture into a compatible windscreen washer reservoir. Do not overfill.</li><li>Operate the washer and wipers to distribute the cleaning solution across the glass.</li></ol>
+        <p class="bm-demo-warning"><strong>Check first:</strong> Confirm washer-system compatibility and the correct product concentration on the final label. The supplied poster artwork shows a 250 ml pack while the existing website catalogue lists 100 ml; confirm the actual pack label before changing the listed size.</p></div>
+      </article>
+      <article class="bm-demo-card" id="demo-multisurface">
+        <img src="assets/multi-surface-cleaner.svg" alt="BrightMoto Multi Surface Cleaner bottle" loading="lazy">
+        <div><span class="bm-use-kicker">INTERIOR &amp; EXTERIOR CLEANING · CURRENT CATALOGUE SIZE: 250 ML</span><h3>Multi Surface Cleaner</h3>
+        <p><strong>Purpose:</strong> Cleaning compatible plastic, acrylic and other washable automotive surfaces.</p>
+        <p><strong>Suggested applications shown:</strong> Wheel arches, wheel trims/caps, underwheel surface areas, bumpers, skirtings and door claddings.</p>
+        <ol><li>Test on a small, inconspicuous area first.</li><li>Spray onto a clean microfibre cloth, or directly onto a suitable surface if the product label permits.</li><li>Gently wipe to loosen and remove dirt, grime and road film.</li><li>Wipe away residue with a clean section of cloth and allow the surface to dry.</li></ol>
+        <p class="bm-demo-warning"><strong>Check first:</strong> Do not use on screens, delicate finishes or surfaces not approved by the label. The supplied poster shows a 500 ml pack while the existing website catalogue lists 250 ml; confirm the actual pack label before changing the listed size.</p></div>
+      </article>
+      <article class="bm-demo-card" id="demo-nano-polish">
+        <img src="assets/polish-wax-nano-spray.svg" alt="BrightMoto Polish and Wax Nano Spray bottle" loading="lazy">
+        <div><span class="bm-use-kicker">PAINT FINISHING · 250 ML</span><h3>Polish &amp; Wax Nano Spray</h3>
+        <p><strong>Purpose:</strong> Quick detailing to enhance gloss and leave a smooth-looking finish on compatible painted surfaces.</p>
+        <ol><li>Prepare two clean microfibre cloths: Cloth 1 for application and Cloth 2 for buffing.</li><li>Gently spray the product onto Cloth 1, not directly onto the vehicle.</li><li>Apply evenly to the required surface area.</li><li>Wait approximately <strong>2 minutes</strong>.</li><li>Use clean, dry Cloth 2 to buff the area to a shine.</li></ol>
+        <p class="bm-demo-warning"><strong>Important:</strong> Test first on an inconspicuous area and avoid hot surfaces or direct sunlight. The product may improve the appearance of very light marks; it does not repair scratches or replace paint correction.</p></div>
+      </article>
+      <article class="bm-demo-card" id="demo-dashboard">
+        <img src="assets/dashboard-polish.svg" alt="BrightMoto Dashboard Dresser bottle" loading="lazy">
+        <div><span class="bm-use-kicker">INTERIOR TRIM CARE · 250 ML</span><h3>Dashboard Dresser</h3>
+        <p><strong>Purpose:</strong> Clean, dress and refresh the appearance of compatible dashboard and interior trim surfaces.</p>
+        <ol><li>Prepare two microfibre cloths: Cloth 1 for application and Cloth 2 for the final wipe.</li><li>Spray a small amount onto Cloth 1; <strong>do not spray directly onto the dashboard</strong>.</li><li>Apply evenly over the compatible dashboard surface.</li><li>Wait approximately <strong>30 seconds</strong>.</li><li>Use clean, dry Cloth 2 to wipe and finish the surface.</li></ol>
+        <p class="bm-demo-warning"><strong>Important:</strong> Keep product away from pedals, steering controls, instrument displays, touchscreens and glass. Avoid surfaces where a slippery finish could affect vehicle control.</p></div>
+      </article>
+      <article class="bm-demo-card" id="demo-shampoo">
+        <img src="assets/premium-snow-shampoo.svg" alt="BrightMoto Premium Luxe Snow Shampoo bottle" loading="lazy">
+        <div><span class="bm-use-kicker">CAR &amp; BIKE WASH · 250 ML</span><h3>Premium Luxe Snow Shampoo</h3>
+        <p><strong>Purpose:</strong> Concentrated, pH-balanced wash shampoo for routine exterior cleaning of cars and bikes.</p>
+        <p><strong>Correct dilution ratio: 1:200.</strong></p>
+        <ol><li>Measure <strong>5 ml</strong> of shampoo for every <strong>1 litre</strong> of water.</li><li>For a 5-litre wash bucket, use <strong>25 ml</strong> of shampoo and add 5 litres of water.</li><li>Apply the diluted solution using suitable wash equipment or a clean wash mitt.</li><li>Work over the exterior to loosen dirt and road grime without allowing the solution to dry on the surface.</li><li>Rinse thoroughly with clean water and dry using a suitable microfibre towel.</li></ol>
+        <p class="bm-demo-warning"><strong>Important:</strong> Use the 1:200 dilution; do not substitute a stronger concentration. Wash in a shaded area and follow the product label.</p></div>
+      </article>
     </div>
-    <p class="bm-note">The product guides below provide the written steps and important use recommendations. Always follow the final approved product label.</p>
+    <p class="bm-note">Pack-size note: the website catalogue retains its existing listed sizes where the supplied poster artwork differs. Confirm final printed labels and pack sizes before publishing any revised size claims. Product claims, material compatibility and aerosol instructions must match the approved formulation and label.</p>
   </div>
 </section>
-<section class="section alt" id="product-use-guides"><div class="wrap"><div class="heading"><div class="eyebrow">BrightMoto application guides</div><h2>Product Demonstrations &amp; How to Use</h2><p>Practical product-use information for selected BrightMoto products. Always read the pack label and check material compatibility before use.</p></div><div class="bm-use-grid"><article class="bm-use-card"><span class="bm-use-kicker">CAR &amp; BIKE WASH</span><h3>Premium Luxe Shampoo</h3><p><strong>1:200 dilution</strong> — 5 ml shampoo per 1 litre of water; 25 ml per 5 litres. Apply using suitable wash equipment and rinse thoroughly.</p></article><article class="bm-use-card"><span class="bm-use-kicker">PAINT FINISHING</span><h3>Nano Spray Polish</h3><p>Use two microfibre cloths. Spray onto Cloth 1 and apply to the required surface. Wait 2 minutes, then buff with a clean, dry Cloth 2. Minor marks may appear less noticeable; deeper scratches need professional correction.</p></article><article class="bm-use-card"><span class="bm-use-kicker">INTERIOR TRIM</span><h3>Dashboard Dresser</h3><p>Spray onto Cloth 1, apply evenly over compatible dashboard surfaces and wait about 30 seconds. Finish with a second clean, dry microfibre cloth. Keep product off pedals, steering controls and screens.</p></article><article class="bm-use-card"><span class="bm-use-kicker">GLASS &amp; VISIBILITY</span><h3>Windscreen Additive</h3><p>Mix 25 ml additive with 2 litres of clean water and add to a compatible windscreen washer tank. Operate the washer to help clean dirt, dust and road stains from the glass.</p></article><article class="bm-use-card"><span class="bm-use-kicker">EXTERIOR SURFACES</span><h3>MultiSurface Cleaner</h3><p>For compatible plastic, acrylic and washable automotive surfaces: wheel arches, wheel trims/caps, underwheel areas, bumpers, skirtings and door claddings. Apply to a cloth or suitable surface, wipe gently and finish clean.</p></article><article class="bm-use-card"><span class="bm-use-kicker">CABIN CARE</span><h3>Odour Remover &amp; Cabin Sanitizer</h3><p>Use the 8–10 minute A/C circulation method only if expressly approved by the final product label. Park in a safe, open, well-ventilated area, attend the vehicle throughout, and keep all occupants, children and pets outside. Follow label ventilation instructions before re-entry.</p></article><article class="bm-use-card"><span class="bm-use-kicker">HELMET &amp; RIDER CARE</span><h3>Helmet Cleaner</h3><p>Use only when the helmet will not be needed for at least 1 hour. Apply in an open, ventilated area to compatible inner foam/fabric lining. Keep unused for 30–45 minutes and ensure it is completely dry before wearing. Never spray while wearing the helmet.</p></article></div><p class="bm-note">Product performance, sanitizing claims, material compatibility and aerosol operating instructions must match the final approved formulation and label. The label takes precedence over general website guidance.</p></div></section><section class="section" id="additional-products"><div class="wrap">
+<section class="section" id="additional-products"><div class="wrap">
 <div class="heading"><div class="eyebrow">More from BrightMoto</div><h2>Additional &amp; Specialist Care Range</h2><p>Explore further products in our expanding automotive-care portfolio. These are displayed separately from our featured nine-product range.</p></div>
 <div class="bm-product-grid">
 <article class="bm-product"><div class="bm-product-top"><span class="bm-category">UNDERBODY PROTECTION</span><span class="bm-pack">ENQUIRE</span></div><img class="bm-product-photo" src="assets/under-chassis-spray.svg" alt="BrightMoto Under Chassis Spray product bottle" loading="lazy"><h3>Under Chassis Spray</h3><p>A product for suitable vehicle underbody and chassis-care applications. Intended for use as part of a planned underbody maintenance routine; confirm preparation and application instructions on the label.</p><a class="textlink" href="https://wa.me/919845175703?text=Hello%20BrightMoto%2C%20please%20share%20product%20details%20for%20Under%20Chassis%20Spray." target="_blank" rel="noopener">ENQUIRE NOW · WHATSAPP →</a></article>
