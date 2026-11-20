@@ -136,6 +136,51 @@
 @media(max-width:760px){.bm-poster-grid{grid-template-columns:1fr 1fr;gap:13px}}
 @media(max-width:480px){.bm-poster-grid{grid-template-columns:1fr}}
 </style>
+
+<style>
+/* Responsive BrightMoto cover: fit the complete poster within the visible screen */
+.hero.hero-panoramic{
+  height:calc(100svh - 76px);
+  min-height:420px;
+  max-height:900px;
+  display:flex;
+  flex-direction:column;
+  justify-content:stretch;
+  padding:0!important;
+  overflow:hidden;
+}
+.hero-panoramic .hero-wide-image{
+  display:block;
+  flex:1 1 auto;
+  min-height:0;
+  width:100%;
+  height:100%;
+  max-height:none;
+  object-fit:contain;
+  object-position:center;
+  margin:auto;
+}
+.hero-panoramic .hero-actions{
+  flex:0 0 auto;
+  justify-content:center;
+  padding:10px 14px 12px;
+  gap:10px;
+}
+@media(max-width:820px){
+  .hero.hero-panoramic{height:calc(100svh - 96px);min-height:360px}
+}
+@media(max-width:650px){
+  .hero.hero-panoramic{height:calc(100svh - 104px);min-height:340px}
+  .hero-panoramic .hero-actions{padding:9px 10px;gap:8px}
+  .hero-panoramic .hero-actions .btn{min-height:38px;padding:9px 10px;font-size:9px}
+}
+@media(max-height:600px){
+  .hero.hero-panoramic{min-height:300px}
+  .hero-panoramic .hero-actions{padding:6px 10px}
+  .hero-panoramic .hero-actions .btn{min-height:34px;padding:7px 9px}
+}
+</style>
+
 </head><body>
 <header class="top"><div class="wrap nav"><a class="brand" href="index.html">UNITED AUTOMOTIVES<small>INDIA</small></a><nav class="links" aria-label="Main navigation"><a href="index.html">Home</a><a href="services.html#services">Services</a><a href="insurance.html#insurance">Insurance</a><a class="active" href="bright-moto.html" aria-current="page">Bright Moto</a><a href="about.html#about">About</a><a href="contact.html#contact">Contact</a></nav></div></header>
 <main>
