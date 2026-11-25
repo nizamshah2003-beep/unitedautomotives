@@ -6,6 +6,7 @@
  <linearGradient id="body" x2="1"><stop stop-color="#f9fcff" stop-opacity=".55"/><stop offset=".18" stop-color="#1468b2"/><stop offset=".78" stop-color="#1468b2"/><stop offset="1" stop-color="#071c35"/></linearGradient>
  <filter id="shadow"><feGaussianBlur stdDeviation="12"/></filter>
 </defs>
+<g transform="translate(52 0) scale(.8 1)">
 <ellipse cx="260" cy="572" rx="142" ry="20" fill="#0a2745" opacity=".18" filter="url(#shadow)"/>
 <!-- ergonomic RTU bottle with trigger head -->
 <path d="M208 128h104v52h-104z" fill="url(#cap)"/>
@@ -28,4 +29,5 @@
 </g>
 <rect x="146" y="540" width="228" height="13" rx="6" fill="url(#gold)" opacity=".85"/>
 <text x="260" y="596" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#637487" letter-spacing="2">BRIGHTMOTO · PREMIUM AUTOMOTIVE CARE</text>
+</g>
 </svg>
