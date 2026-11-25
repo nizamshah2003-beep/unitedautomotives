@@ -3,7 +3,7 @@
  <linearGradient id="can" x1="0" x2="1"><stop stop-color="#070a0f"/><stop offset=".18" stop-color="#343a43"/><stop offset=".42" stop-color="#080b10"/><stop offset=".78" stop-color="#20252d"/><stop offset="1" stop-color="#05070a"/></linearGradient>
  <linearGradient id="cap" x2="0" y2="1"><stop stop-color="#313943"/><stop offset=".5" stop-color="#080c12"/><stop offset="1" stop-color="#020408"/></linearGradient>
  <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#fff2b0"/><stop offset=".48" stop-color="#e3b864"/><stop offset="1" stop-color="#9a6417"/></linearGradient>
- <linearGradient id="body" x2="1"><stop stop-color="#f9fcff" stop-opacity=".55"/><stop offset=".18" stop-color="#c89b36"/><stop offset=".78" stop-color="#c89b36"/><stop offset="1" stop-color="#071c35"/></linearGradient>
+ <linearGradient id="body" x2="1"><stop stop-color="#f9fcff" stop-opacity=".55"/><stop offset=".18" stop-color="#090c11"/><stop offset=".78" stop-color="#090c11"/><stop offset="1" stop-color="#071c35"/></linearGradient>
  <filter id="shadow"><feGaussianBlur stdDeviation="12"/></filter>
 </defs>
 <ellipse cx="260" cy="572" rx="142" ry="20" fill="#0a2745" opacity=".18" filter="url(#shadow)"/>
@@ -16,7 +16,7 @@
 <path d="M197 202q-12 22 -10 310q10 22 18 0V211q-1 -18 -8 -9" fill="#fff" opacity=".3"/>
 <rect x="191" y="265" width="138" height="218" rx="12" fill="#07101e" stroke="url(#gold)" stroke-width="4"/>
 
-<g transform="translate(260 274)" stroke-linejoin="round"><path d="M-20 -4Q-48 -26 -74 -16Q-49 -12 -31 3Q-49 -2 -70 8Q-42 8 -20 20L-10 10Z M20 -4Q48 -26 74 -16Q49 -12 31 3Q49 -2 70 8Q42 8 20 20L10 10Z" fill="url(#gold)" stroke="#fff0a6" stroke-width="2"/><circle r="24" fill="#070a10" stroke="url(#gold)" stroke-width="4"/><circle r="19" fill="none" stroke="#d8b24c" stroke-width="1.5"/><text y="8" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" font-weight="900" font-style="italic" fill="#fff">B<tspan fill="url(#gold)">M</tspan></text></g>
+<g transform="translate(260 274)" stroke-linejoin="round"><path d="M-20 -4Q-48 -26 -74 -16Q-49 -12 -31 3Q-49 -2 -70 8Q-42 8 -20 20L-10 10Z M20 -4Q48 -26 74 -16Q49 -12 31 3Q49 -2 70 8Q42 8 20 20L10 10Z" fill="url(#gold)" stroke="#fff0a6" stroke-width="2"/><circle r="29" fill="#05070a" stroke="url(#gold)" stroke-width="4"/><circle r="23" fill="none" stroke="#d8b24c" stroke-width="1.8"/><text y="8" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="900" font-style="italic" fill="#fff">B<tspan fill="url(#gold)">M</tspan></text></g>
 <g text-anchor="middle" font-family="Arial,sans-serif">
  <text x="260" y="298" fill="#fff" font-size="25" font-weight="900" font-style="italic">Bright<tspan fill="url(#gold)">Moto</tspan></text>
  <text x="260" y="320" fill="#d9e1ea" font-size="10" letter-spacing="1.4" font-weight="700">CAR &amp; BIKE CARE PRODUCTS</text>
