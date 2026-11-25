@@ -130,6 +130,33 @@
 .bm-product-photo{object-fit:contain}
 @media(max-width:560px){#additional-products .bm-product-photo{height:270px;max-height:270px}}
 
+
+/* Uniform on-screen product-pack sizing based on 160 mm circumference x 118 mm height */
+#products .bm-product-photo,
+#additional-products .bm-product-photo{
+  display:block;
+  width:240px !important;
+  max-width:100% !important;
+  height:290px !important;
+  max-height:290px !important;
+  margin:14px auto 16px !important;
+  padding:4px !important;
+  object-fit:contain !important;
+  object-position:center center !important;
+  background:linear-gradient(180deg,#ffffff 0%,#f3f6fa 100%) !important;
+  border:1px solid #e4eaf0 !important;
+  border-radius:12px !important;
+}
+@media(max-width:560px){
+  #products .bm-product-photo,
+  #additional-products .bm-product-photo{
+    width:220px !important;
+    height:270px !important;
+    max-height:270px !important;
+    margin:12px auto 14px !important;
+  }
+}
+
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Brand","name":"Bright Moto","description":"Car and bike care products marketed by United Automotives India.","url":"https://www.unitedautomotivesindia.com/bright-moto.html"}</script>
 
