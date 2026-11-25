@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 620" role="img" aria-label="BrightMoto Degreaser READY TO USE · TRIGGER SPRAY pack">
 <defs><linearGradient id="metal" x2="1"><stop stop-color="#05070a"/><stop offset=".2" stop-color="#3a414b"/><stop offset=".5" stop-color="#090c11"/><stop offset=".82" stop-color="#252b34"/><stop offset="1" stop-color="#05070a"/></linearGradient><linearGradient id="gold" x2="0" y2="1"><stop stop-color="#fff0a6"/><stop offset=".5" stop-color="#e3b864"/><stop offset="1" stop-color="#986014"/></linearGradient><linearGradient id="liquid" x2="1"><stop stop-color="#fff" stop-opacity=".4"/><stop offset=".2" stop-color="#c82922"/><stop offset=".8" stop-color="#c82922"/><stop offset="1" stop-color="#06162b"/></linearGradient></defs>
-<g transform="translate(52 0) scale(.8 1)">
+<g transform="translate(13 0) scale(.95 1)">
 <ellipse cx="260" cy="575" rx="135" ry="18" fill="#102d4d" opacity=".15"/>
 <path d="M205 110h110v60H205z" fill="#151b24"/><path d="M193 116h150l34 24h-66l-28 42h-90l-28 -22z" fill="#080c12" stroke="#49535e" stroke-width="4"/><path d="M320 122h75q14 0 14 16v18h-82z" fill="#121923" stroke="#49535e" stroke-width="3"/><rect x="174" y="166" width="172" height="390" rx="48" fill="url(#liquid)" stroke="#e1e8ee" stroke-width="5"/><path d="M173 159q-15 20 -10 360q9 22 20 0V174q-2 -20 -10 -15" fill="#fff" opacity=".14"/>
 <rect x="190" y="250" width="140" height="240" rx="13" fill="#07101e" stroke="url(#gold)" stroke-width="4"/>
