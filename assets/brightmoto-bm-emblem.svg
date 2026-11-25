@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+<title id="title">BrightMoto official BM tyre and wing emblem</title>
+<desc id="desc">A black tyre ring with silver highlights and gold inner rings surrounds the silver and gold BM initials. Three gold and silver wings extend from both sides. The BrightMoto wordmark appears below with Bright in silver and Moto in gold.</desc>
+<defs>
+ <linearGradient id="gold" x1="0" y1="0" x2=".18" y2="1"><stop stop-color="#fffbd7"/><stop offset=".18" stop-color="#fff08a"/><stop offset=".42" stop-color="#ffc928"/><stop offset=".67" stop-color="#d38a08"/><stop offset=".86" stop-color="#fff06a"/><stop offset="1" stop-color="#8d5100"/></linearGradient>
+ <linearGradient id="silver" x1="0" y1="0" x2=".15" y2="1"><stop stop-color="#fff"/><stop offset=".24" stop-color="#dce2e9"/><stop offset=".48" stop-color="#858d98"/><stop offset=".72" stop-color="#f8fbff"/><stop offset="1" stop-color="#9ba3ad"/></linearGradient>
+ <linearGradient id="rubber" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08090b"/><stop offset=".35" stop-color="#4b4d50"/><stop offset=".55" stop-color="#08090b"/><stop offset=".8" stop-color="#34363a"/><stop offset="1" stop-color="#050506"/></linearGradient>
+ <radialGradient id="inner"><stop stop-color="#1a1a1c"/><stop offset=".72" stop-color="#050506"/><stop offset="1" stop-color="#000"/></radialGradient>
+ <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%"><feGaussianBlur in="SourceAlpha" stdDeviation="9"/><feOffset dy="5"/><feComponentTransfer><feFuncA type="linear" slope=".7"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="tread" width="42" height="48" patternUnits="userSpaceOnUse" patternTransform="rotate(-28)"><path d="M5 0H32L40 22H13Z" fill="#17191c" stroke="#747a80" stroke-width="3"/><path d="M9 4H29" stroke="#c2c7cd" stroke-width="2" opacity=".65"/></pattern>
+</defs>
+<g filter="url(#shadow)">
+ <!-- Broad, layered wings -->
+ <g stroke-linejoin="round">
+  <path d="M392 250C290 173 168 147 42 168C111 188 177 218 237 260C169 242 102 249 55 270C169 275 265 315 348 377L417 333Z" fill="url(#gold)" stroke="#fff0a1" stroke-width="7"/>
+  <path d="M385 334C278 280 171 275 91 296C179 310 247 343 314 392L393 414Z" fill="url(#silver)" stroke="#f7f8fb" stroke-width="6"/>
+  <path d="M379 410C287 377 194 378 131 400C221 411 280 441 352 488L414 475Z" fill="url(#gold)" stroke="#ffe58b" stroke-width="6"/>
+  <path d="M808 250C910 173 1032 147 1158 168C1089 188 1023 218 963 260C1031 242 1098 249 1145 270C1031 275 935 315 852 377L783 333Z" fill="url(#gold)" stroke="#fff0a1" stroke-width="7"/>
+  <path d="M815 334C922 280 1029 275 1109 296C1021 310 953 343 886 392L807 414Z" fill="url(#silver)" stroke="#f7f8fb" stroke-width="6"/>
+  <path d="M821 410C913 377 1006 378 1069 400C979 411 920 441 848 488L786 475Z" fill="url(#gold)" stroke="#ffe58b" stroke-width="6"/>
+ </g>
+ <!-- Tyre ring -->
+ <circle cx="600" cy="284" r="238" fill="url(#rubber)" stroke="url(#silver)" stroke-width="10"/>
+ <circle cx="600" cy="284" r="220" fill="none" stroke="#0b0c0e" stroke-width="20"/>
+ <circle cx="600" cy="284" r="211" fill="none" stroke="url(#tread)" stroke-width="36"/>
+ <circle cx="600" cy="284" r="188" fill="#08090b" stroke="url(#silver)" stroke-width="5"/>
+ <circle cx="600" cy="284" r="174" fill="url(#inner)" stroke="url(#gold)" stroke-width="13"/>
+ <circle cx="600" cy="284" r="157" fill="none" stroke="#f4c747" stroke-width="3"/>
+ <!-- BM monogram -->
+ <path d="M462 337Q600 365 738 337" fill="none" stroke="url(#gold)" stroke-width="8"/>
+ <text x="600" y="319" text-anchor="middle" font-family="Arial,sans-serif" font-size="174" font-weight="900" font-style="italic" letter-spacing="-15"><tspan fill="url(#silver)">B</tspan><tspan fill="url(#gold)">M</tspan></text>
+ <path d="M456 351Q600 382 744 351" fill="none" stroke="#fff0a1" stroke-width="2"/>
+</g>
+</svg>
