@@ -12,11 +12,7 @@
 <rect x="136" y="52" width="148" height="88" rx="16" fill="url(#ribs)" opacity=".7"/>
 <rect x="135" y="255" width="150" height="240" rx="12" fill="#05080e" stroke="url(#gold)" stroke-width="4"/>
 <path d="M137 269h146v25H137z" fill="url(#gold)"/>
-<g transform="translate(210 292)">
- <path d="M-65 -7q-34 -35 -56 -9q25 1 39 25q-10 -20 -30 -21q23 12 32 29l15 -7M65 -7q34 -35 56 -9q-25 1 -39 25q10 -20 30 -21q-23 12 -32 29l-15 -7" fill="url(#gold)" stroke="#fbe39a" stroke-width="2"/>
- <ellipse rx="43" ry="29" fill="#07090d" stroke="url(#gold)" stroke-width="3"/>
- <text y="7" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="900" fill="#fff">UA</text>
-</g>
+<image href="/assets/brightmoto-bm-emblem.svg" x="132" y="267" width="156" height="73" preserveAspectRatio="xMidYMid meet"/>
 <text x="210" y="349" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-style="italic" font-weight="900" fill="#fff">BRIGHT<tspan fill="#f4c33f">MOTO</tspan></text>
 <text x="210" y="369" text-anchor="middle" font-family="Arial,sans-serif" font-size="8.5" letter-spacing=".8" font-weight="700" fill="#e9eef5">CAR AND BIKE CARE PRODUCTS</text>
 <g transform="translate(210 405)" aria-label="Blue car and red motorcycle illustration">
