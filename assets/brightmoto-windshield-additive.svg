@@ -6,7 +6,7 @@
  <linearGradient id="body" x2="1"><stop stop-color="#f9fcff" stop-opacity=".55"/><stop offset=".18" stop-color="#087bc3"/><stop offset=".78" stop-color="#087bc3"/><stop offset="1" stop-color="#071c35"/></linearGradient>
  <filter id="shadow"><feGaussianBlur stdDeviation="12"/></filter>
 </defs>
-<g transform="translate(52 0) scale(.8 1)">
+<g transform="translate(13 0) scale(.95 1)">
 <ellipse cx="260" cy="572" rx="142" ry="20" fill="#0a2745" opacity=".18" filter="url(#shadow)"/>
 <!-- ergonomic RTU bottle with trigger head -->
 <path d="M208 128h104v52h-104z" fill="url(#cap)"/>
