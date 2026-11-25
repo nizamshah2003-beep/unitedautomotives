@@ -1,16 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 560" role="img" aria-label="BrightMoto Nano Spray Coating bottle artwork"><defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#fbfdff"/><stop offset="1" stop-color="#eaf1f7"/></linearGradient><linearGradient id="black" x2="1" y2="0"><stop stop-color="#05080d"/><stop offset=".35" stop-color="#202a39"/><stop offset=".62" stop-color="#05070b"/><stop offset="1" stop-color="#303a49"/></linearGradient><linearGradient id="gold" x2="0" y2="1"><stop stop-color="#ffe89b"/><stop offset=".5" stop-color="#d6a638"/><stop offset="1" stop-color="#9d6c16"/></linearGradient><linearGradient id="blue" x2="1" y2="0"><stop stop-color="#063b82"/><stop offset=".5" stop-color="#168ee8"/><stop offset="1" stop-color="#061f4b"/></linearGradient><filter id="shadow"><feGaussianBlur stdDeviation="12"/></filter></defs><rect width="480" height="560" rx="22" fill="url(#bg)"/><ellipse cx="240" cy="495" rx="150" ry="18" fill="#17283a" opacity=".18" filter="url(#shadow)"/><g><path d="M205 58h70v45h-70z" fill="url(#black)"/><path d="M225 58h145q28 0 28 20v18H250z" fill="url(#black)"/><path d="M240 90l-90 78" stroke="#111923" stroke-width="20" stroke-linecap="round"/><rect x="125" y="125" width="210" height="330" rx="38" fill="url(#black)" stroke="#596779" stroke-width="3"/><path d="M145 140q-15 90 0 245" stroke="#fff" stroke-opacity=".12" stroke-width="12" fill="none"/> <rect x="130" y="215" width="200" height="205" rx="10" fill="#070b12" stroke="url(#gold)" stroke-width="3"/><path d="M130 215h200v32h-200z" fill="url(#gold)"/><g transform="translate(240 275)"><path d="M-78 -15q-40 -38 -65 -12q30 2 45 30q-12 -25 -35 -26q27 14 36 35l19 -8M78 -15q40 -38 65 -12q-30 2 -45 30q12 -25 35 -26q-27 14 -36 35l-19 -8" fill="url(#gold)" stroke="#f7dc83" stroke-width="2"/><ellipse rx="54" ry="34" fill="#05080d" stroke="url(#gold)" stroke-width="4"/><text y="-3" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="24" fill="#fff">BM</text><text y="18" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="12" fill="#f5c84f">BrightMoto</text></g><text x="240" y="329" text-anchor="middle" font-family="Arial" font-weight="900" font-size="20" fill="#fff">BRIGHT<tspan fill="#efbd3f">MOTO</tspan></text><text x="240" y="350" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="9" letter-spacing=".7" fill="#e9eef4">CAR AND BIKE CARE PRODUCTS</text><g transform="translate(240 375) scale(.62)" aria-label="Blue car and red motorcycle">
- <g transform="translate(-69 0)">
-  <path d="M0 2l7-13q3-6 11-6h29q8 0 13 7l10 12-3 7H4z" fill="#087bd2" stroke="#a8dfff" stroke-width="1.6"/>
-  <path d="M16-14h28q6 0 10 6H12z" fill="#b9e8ff" stroke="#d9f5ff" stroke-width="1"/>
-  <path d="M34-14v7h22" stroke="#0b477e" stroke-width="1.5" fill="none"/>
-  <circle cx="17" cy="9" r="7" fill="#111923" stroke="#dce7f0" stroke-width="2"/><circle cx="17" cy="9" r="2.7" fill="#9eabb8"/>
-  <circle cx="55" cy="9" r="7" fill="#111923" stroke="#dce7f0" stroke-width="2"/><circle cx="55" cy="9" r="2.7" fill="#9eabb8"/>
- </g>
- <g transform="translate(13 -1)">
-  <circle cx="10" cy="11" r="7.5" fill="#111923" stroke="#e5edf5" stroke-width="2"/><circle cx="10" cy="11" r="2.5" fill="#9eabb8"/>
-  <circle cx="52" cy="11" r="7.5" fill="#111923" stroke="#e5edf5" stroke-width="2"/><circle cx="52" cy="11" r="2.5" fill="#9eabb8"/>
-  <path d="M10 10l15-13 11 1 16 13M25-3l-7-8M36-2l8-8 6 1" fill="none" stroke="#e32636" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M25-4q6-9 15-5l7 6-8 5-15-1z" fill="#e32636" stroke="#ffb3b8" stroke-width="1"/>
-  <path d="M30-8l-9-5h-8M42-8l9-7 6 1" fill="none" stroke="#1b2633" stroke-width="3" stroke-linecap="round"/>
- </g>
-</g><rect x="140" y="363" width="180" height="4" fill="url(#gold)"/><text x="240" y="392" text-anchor="middle" font-family="Arial" font-weight="900" font-size="16" fill="#fff">NANO SPRAY COATING</text><text x="240" y="409" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="10" fill="#f4cb62">ENQUIRE</text><rect x="130" y="421" width="200" height="29" rx="0 0 25 25" fill="url(#gold)"/><text x="240" y="440" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="#111">UNITED AUTOMOTIVES INDIA</text></g><text x="240" y="520" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#1b3d60">ADVANCED SURFACE CARE</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 620" role="img" aria-label="BrightMoto Polish & Wax Nano Spray RTU trigger spray bottle product pack">
+<defs>
+ <linearGradient id="can" x1="0" x2="1"><stop stop-color="#070a0f"/><stop offset=".18" stop-color="#343a43"/><stop offset=".42" stop-color="#080b10"/><stop offset=".78" stop-color="#20252d"/><stop offset="1" stop-color="#05070a"/></linearGradient>
+ <linearGradient id="cap" x2="0" y2="1"><stop stop-color="#313943"/><stop offset=".5" stop-color="#080c12"/><stop offset="1" stop-color="#020408"/></linearGradient>
+ <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#fff2b0"/><stop offset=".48" stop-color="#e3b864"/><stop offset="1" stop-color="#9a6417"/></linearGradient>
+ <linearGradient id="body" x2="1"><stop stop-color="#f9fcff" stop-opacity=".55"/><stop offset=".18" stop-color="#2678d8"/><stop offset=".78" stop-color="#2678d8"/><stop offset="1" stop-color="#071c35"/></linearGradient>
+ <filter id="shadow"><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<ellipse cx="260" cy="572" rx="142" ry="20" fill="#0a2745" opacity=".18" filter="url(#shadow)"/>
+<!-- ergonomic RTU bottle with trigger head -->
+<path d="M208 128h104v52h-104z" fill="url(#cap)"/>
+<path d="M190 135h140l28 25h-64l-26 35h-76l-26-25z" fill="#090d13" stroke="#48515d" stroke-width="3"/>
+<path d="M288 135h78q17 0 17 16v20h-86z" fill="#111820" stroke="#56616d" stroke-width="3"/>
+<path d="M337 168l45 13-11 29-48-14z" fill="#080c12" stroke="#4b5662" stroke-width="3"/>
+<rect x="177" y="176" width="166" height="372" rx="48" fill="url(#body)" stroke="#dce5ed" stroke-width="5"/>
+<path d="M197 202q-12 22 -10 310q10 22 18 0V211q-1 -18 -8 -9" fill="#fff" opacity=".3"/>
+<rect x="191" y="265" width="138" height="218" rx="12" fill="#07101e" stroke="url(#gold)" stroke-width="4"/>
+
+<g text-anchor="middle" font-family="Arial,sans-serif">
+ <text x="260" y="298" fill="#fff" font-size="25" font-weight="900" font-style="italic">Bright<tspan fill="url(#gold)">Moto</tspan></text>
+ <text x="260" y="320" fill="#d9e1ea" font-size="10" letter-spacing="1.4" font-weight="700">CAR &amp; BIKE CARE PRODUCTS</text>
+ <path d="M205 338h110" stroke="url(#gold)" stroke-width="3"/>
+ <text x="260" y="380" fill="#fff" font-size="20" font-weight="900">Polish & Wax Nano Spray</text>
+ <text x="260" y="407" fill="#f2c95d" font-size="13" font-weight="700">PAINT FINISHING</text>
+ <text x="260" y="455" fill="#e8edf2" font-size="11" font-weight="600">READY TO USE · TRIGGER SPRAY</text>
+ <text x="260" y="476" fill="#e8edf2" font-size="12">250 ML</text>
+</g>
+<rect x="146" y="540" width="228" height="13" rx="6" fill="url(#gold)" opacity=".85"/>
+<text x="260" y="596" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#637487" letter-spacing="2">BRIGHTMOTO · PREMIUM AUTOMOTIVE CARE</text>
+</svg>
