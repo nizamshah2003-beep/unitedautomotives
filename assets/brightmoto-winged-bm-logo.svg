@@ -1,8 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 240" role="img" aria-labelledby="title desc">
-<title id="title">BrightMoto BM winged trademark logo</title><desc id="desc">BM initials inside a tyre-inspired circular emblem with sweeping wings, in gold and silver.</desc>
-<defs><linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff1b5"/><stop offset=".45" stop-color="#e3b864"/><stop offset="1" stop-color="#9d6b19"/></linearGradient><linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".55" stop-color="#c5cbd2"/><stop offset="1" stop-color="#747d89"/></linearGradient></defs>
-<path d="M204 102C144 58 80 43 14 59c50 4 92 22 133 53-47-23-86-25-127-17 67 2 119 26 161 58M316 102c60-44 124-59 190-43-50 4-92 22-133 53 47-23 86-25 127-17-67 2-119 26-161 58" fill="none" stroke="url(#gold)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="260" cy="100" r="78" fill="#07090d" stroke="url(#gold)" stroke-width="7"/><circle cx="260" cy="100" r="65" fill="none" stroke="#d9b45d" stroke-width="2" stroke-dasharray="5 5"/>
-<text x="260" y="121" text-anchor="middle" font-family="Arial,sans-serif" font-size="67" font-weight="900" letter-spacing="-7" fill="url(#silver)">B<tspan fill="url(#gold)">M</tspan></text>
-<path d="M186 190H334" stroke="url(#gold)" stroke-width="4" stroke-linecap="round"/><text x="260" y="224" text-anchor="middle" font-family="Arial,sans-serif" font-size="26" font-weight="900" letter-spacing="5" fill="#f3cf77">BRIGHTMOTO</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 220" role="img" aria-labelledby="title desc">
+<title id="title">BrightMoto official BM winged emblem</title>
+<desc id="desc">BrightMoto BM initials and BrightMoto wordmark inside a black oval badge with gold wings, matching the supplied brand reference.</desc>
+<defs>
+ <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff4c1"/><stop offset=".32" stop-color="#f5d46a"/><stop offset=".68" stop-color="#d49b27"/><stop offset="1" stop-color="#8b5b12"/></linearGradient>
+ <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".55" stop-color="#d8dce3"/><stop offset="1" stop-color="#8d96a2"/></linearGradient>
+ <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g filter="url(#glow)">
+ <path d="M211 82C159 48 97 39 25 49c48 7 92 22 137 47-44-14-91-15-136-5 65 8 119 27 166 58l20-19C183 103 145 83 103 75c42 2 76 14 112 31z" fill="url(#gold)" stroke="#ffe69a" stroke-width="2"/>
+ <path d="M349 82c52-34 114-43 186-33-48 7-92 22-137 47 44-14 91-15 136-5-65 8-119 27-166 58l-20-19c29-27 67-47 109-55-42 2-76 14-112 31z" fill="url(#gold)" stroke="#ffe69a" stroke-width="2"/>
+ <ellipse cx="280" cy="95" rx="112" ry="83" fill="#05080e" stroke="url(#gold)" stroke-width="8"/>
+ <ellipse cx="280" cy="95" rx="102" ry="74" fill="none" stroke="#e4b94e" stroke-width="2"/>
+ <text x="280" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="56" font-weight="900" font-style="italic" letter-spacing="-4" fill="url(#silver)">B<tspan fill="url(#gold)">M</tspan></text>
+ <path d="M205 94H355" stroke="url(#gold)" stroke-width="2"/>
+ <text x="280" y="131" text-anchor="middle" font-family="Arial,sans-serif" font-size="31" font-weight="900" font-style="italic" letter-spacing="-1" fill="#fff">Bright<tspan fill="url(#gold)">Moto</tspan></text>
+ <text x="382" y="119" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="url(#gold)">™</text>
+</g>
 </svg>
